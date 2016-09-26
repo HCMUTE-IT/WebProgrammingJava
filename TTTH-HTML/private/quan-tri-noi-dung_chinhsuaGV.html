@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
-    <title>Gửi Mail | TTTH</title>
+    <title>Quản trị nội dung - Giới thiệu | TTTH</title>
     
     <!-- core CSS -->
 
@@ -59,7 +59,7 @@
             </div><!--/.container-->
         </div><!--/.top-bar-->
 
-       <nav class="navbar navbar-inverse" data-spy="affix" data-offset-top="48" role="banner">
+        <nav class="navbar navbar-inverse" data-spy="affix" data-offset-top="48" role="banner">
             <div class="container">
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -75,10 +75,21 @@
                 <div class="collapse navbar-collapse navbar-right">
                     <ul class="nav navbar-nav">
                         <li><a href="../index.html">Trang chủ</a>
+                        <li><a href="gui-mail.html">Gửi mail</a>
                         </li>
-                        <li><a href="quan-tri-vien.html">Quản lý tài khoản</a>
-                        <li class="active"><a href="gui-mail.html">Gửi mail</a>
-                        </li> 
+                        <li class="dropdown" >
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Quản lý <i class="fa fa-angle-down"></i></a>
+                            <ul class="dropdown-menu">
+                               <li ><a href="quan-tri-noi-dung_trangchu.html">Trang chủ</a>
+                                </li>
+                                <li class="active"><a href="quan-tri-noi-dung_gioithieu.html">Giới thiệu</a>
+                                </li>
+                                <li><a href="quan-tri-noi-dung_tintucsukien.html">Tin tức- sự kiện</a>
+                                </li> 
+                                <li><a href="quan-tri-noi-dung_logo.html">Logo</a>
+                                </li>
+                            </ul>
+                        </li>
                         <li><a href="thong tin tai khoan.html">Thông tin tài khoản</a> 
                         <li><a href="dang-nhap.html">Đăng xuất</a>
                         </li>
@@ -89,37 +100,61 @@
         </nav>
         <!--/nav-->
 
+        
     </header><!--/header-->
-    <section id="contact-page">
-        <div class="container  wow fadeInDown">
-            <div class="center">        
-                <h2>GỬI EMAIL</h2>
-            </div> 
-            <div class="row contact-wrap"> 
-                <div class="status alert alert-success" style="display: none"></div>
-                <form id="main-contact-form" class="contact-form" name="contact-form" method="post" action="sendemail.php">
-                    <div class="col-sm-6 col-sm-offset-3">
-                        <div class="form-group">
-                            <label>Người nhận *</label>
-                            <input type="email" name="email" class="form-control" required="required">
-                        </div>
-                        <div class="form-group">
-                            <label>Chủ đề</label>
-                            <input type="text" name="name" class="form-control" required="required">
-                        </div>  
-                        <div class="form-group">
-                            <label>Nội dung tin nhắn *</label>
-                            <textarea name="message" id="message" required="required" class="form-control" rows="8"></textarea>
-                        </div>                        
-                        <div class="form-group pull-right">
-                            <button type="submit" name="submit" class="btn btn-primary btn-lg" required="required">Gửi email</button>
-                        </div>          
-                    </div>
-                </form> 
-            </div><!--/.row-->
-        </div><!--/.container-->
-    </section><!--/#contact-page-->
+    <section id="blog" class="container">
+        <div class="blog"> 
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h2 class="panel-title">Chỉnh sửa thông tin Giảng viên</h2>
+                </div>
+                <div class="panel-body">
+                    <div class="table-responsive">
+                          <!-- Standar Form -->
+                         <form id="main-contact-form"  action="">
+                            <div class="col-sm-6 col-sm-offset-3">
+                                <div class="form-group">
+                                    <label>Họ và tên</label>
+                                    <input type="text" name="email" class="form-control" required="required" value ="NGUYỄN VĂN ANH">
+                                </div>
+                                <div class="form-group">
+                                    <label>Địa chỉ mail</label>
+                                    <input type="email" name="name" class="form-control" required="required" value="xx_xxx@gmail.com">
+                                </div>
+                                <div class="form-group">
+                                    <label>Số điện thoại</label>
+                                    <input type="text" name="name" class="form-control" required="required" value="01692892892">
+                                </div>
+                                <div class="form-group">
+                                    <label>Liên kêt Github</label>
+                                    <input type="link" name="name" class="form-control" required="required" value="">
+                                </div>
+                                <div class="form-group">
+                                    <label>Liên kết Facebook</label>
+                                    <input type="link" name="name" class="form-control" required="required" value="">
+                                </div> 
+                                <div class="form-group">
+                                    <label>Liên kết Twitter</label>
+                                    <input type="link" name="name" class="form-control" required="required" value="">
+                                </div>
+                                <div class="input-group">
+                                    <label>Giới thiệu</label>
+                                    <textarea class="form-control custom-control" rows="5"  cols="180" style="resize:none";></textarea> 
+                                    </div> 
+                                <div class="form-group pull-right">
 
+                                    <button type="submit" name="submit" class="btn btn-primary btn-lg" required="required">Cập nhật thông tin</button>
+                                </div>
+                            </div>
+                        </form>        
+                    </div>
+                </div> 
+            </div>
+        </div>  
+         
+    </section><!--/#blog-->
+    
+ 
     <section id="bottom">
         <div class="container wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
             <div class="row">
