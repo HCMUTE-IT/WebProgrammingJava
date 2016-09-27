@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -30,6 +31,33 @@
 </head><!--/head-->
 
 <body>
+  <header id="header">
+        <div class="top-bar">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6 col-xs-4">
+                        <div class="top-number"><p><i class="fa fa-phone-square"></i>  0164 7931 390</p></div>
+                    </div>
+                    <div class="col-sm-6 col-xs-8">
+                       <div class="social">
+                            <ul class="social-share">
+                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fa fa-linkedin"></i></a></li> 
+                                <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+                                <li><a href="#"><i class="fa fa-skype"></i></a></li>
+                            </ul>
+                            <div class="search">
+                                <form role="form">
+                                    <input type="text" class="search-form" autocomplete="off" placeholder="Search">
+                                    <i class="fa fa-search"></i>
+                                </form>
+                           </div>
+                       </div>
+                    </div>
+                </div>
+            </div><!--/.container-->
+        </div><!--/.top-bar-->
    <nav class="navbar navbar-inverse" data-spy="affix" data-offset-top="48" role="banner">
             <div class="container">
                 <div class="navbar-header">
@@ -49,7 +77,9 @@
                         <li><a href="gui-mail.html">Gửi mail</a>
                         </li>
                         <li class="active"><a href="quan-tri-vien.html">Quản lý tài khoản</a>
-                        <li><a href="gui-mail.html">Gửi mail</a>
+                        <li><a href="dang-ky.html">Tạo tài khoản</a>
+                        </li>
+                         <li><a href="gui-mail.html">Gửi mail</a>
                         </li>
                         <li><a href="thong tin tai khoan.html">Thông tin tài khoản</a> 
                         <li><a href="dang-nhap.html">Đăng xuất</a>
@@ -87,7 +117,35 @@
                             <td>30/9/2016</td>
                             <td>Quản trị nội dung</td>
                             <td><a href="chinh-sua-tai-khoan.html"><button type="button" class="btn btn-sm btn-primary">Chỉnh sửa</button></a></td>
-                            <td><button type="button" class="btn btn-sm btn-primary">Xóa</button></td>
+                            <td>
+                               <div class="form-group">
+
+                                 <button type="button" class="btn btn-sm btn-primary btn-lg" data-toggle="modal" data-target="#myModal">Xóa</button>
+
+                                  <!-- Modal -->
+                                  <div class="modal fade" id="myModal" role="dialog">
+                                    <div class="modal-dialog">
+                                    
+                                      <!-- Modal content-->
+                                      <div class="modal-content">
+                                        <div class="modal-header">
+                                          <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                          <h4 class="modal-title">Xóa?</h4>
+                                        </div>
+                                        <div class="modal-body">
+                                          <p>Bạn chắc chắn muốn thay thổi?</p>
+                                        </div>
+                                        <div class="modal-footer">
+                                          <button type="button" class="btn btn-info" data-dismiss="modal">OK</button>
+                                          <button type="button" class="btn btn-md" data-dismiss="modal">Close</button>
+                                        </div>
+                                      </div>
+                                      
+                                    </div>
+                                  </div>
+
+                                </div><!-- end Modal -->
+                            </td>
                           </tr>
                           <tr>
                             <td>hoacm</td>
