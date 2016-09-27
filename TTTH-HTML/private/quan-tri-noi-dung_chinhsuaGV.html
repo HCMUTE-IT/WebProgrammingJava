@@ -59,7 +59,7 @@
             </div><!--/.container-->
         </div><!--/.top-bar-->
 
-        <nav class="navbar navbar-inverse" data-spy="affix" data-offset-top="48" role="banner">
+     <nav class="navbar navbar-inverse" data-spy="affix" data-offset-top="48" role="banner">
             <div class="container">
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -84,14 +84,14 @@
                                 </li>
                                 <li class="active"><a href="quan-tri-noi-dung_gioithieu.html">Giới thiệu</a>
                                 </li>
-                                <li><a href="quan-tri-noi-dung_tintucsukien.html">Tin tức- sự kiện</a>
+                                <li ><a href="quan-tri-noi-dung_tintucsukien.html">Tin tức- sự kiện</a>
                                 </li> 
-                                <li><a href="quan-tri-noi-dung_logo.html">Logo</a>
+                                <li ><a href="quan-tri-noi-dung_logo.html">Cập nhật thông tin</a>
                                 </li>
                             </ul>
                         </li>
                         <li><a href="thong tin tai khoan.html">Thông tin tài khoản</a> 
-                        <li><a href="dang-nhap.html">Đăng xuất</a>
+                        <li><a href="#">Đăng xuất</a>
                         </li>
                     </ul>
                 </div>
@@ -99,7 +99,7 @@
             <!--/.container-->
         </nav>
         <!--/nav-->
-
+        
         
     </header><!--/header-->
     <section id="blog" class="container">
@@ -112,43 +112,68 @@
                     <div class="table-responsive">
                           <!-- Standar Form -->
                          <form id="main-contact-form"  action="">
-                            <div class="col-sm-6 col-sm-offset-3">
+                            <div class="col-sm-7 col-sm-offset-3">
                                 <div class="form-group">
                                     <label>Họ và tên</label>
-                                    <input type="text" name="email" class="form-control" required="required" value ="NGUYỄN VĂN ANH">
+                                    <input type="text" name="email" class="form-control" required="required" placeholder="Họ và tên">
                                 </div>
                                 <div class="form-group">
                                     <label>Địa chỉ mail</label>
-                                    <input type="email" name="name" class="form-control" required="required" value="xx_xxx@gmail.com">
+                                    <input type="email" name="name" class="form-control" required="required" placeholder="Email">
                                 </div>
                                 <div class="form-group">
                                     <label>Số điện thoại</label>
-                                    <input type="text" name="name" class="form-control" required="required" value="01692892892">
+                                    <input type="text" name="name" class="form-control" required="required" placeholder="Số điện thoại">
                                 </div>
                                 <div class="form-group">
                                     <label>Liên kêt Github</label>
-                                    <input type="link" name="name" class="form-control" required="required" value="">
+                                    <input type="link" name="name" class="form-control" required="required" placeholder="Github">
                                 </div>
                                 <div class="form-group">
                                     <label>Liên kết Facebook</label>
-                                    <input type="link" name="name" class="form-control" required="required" value="">
+                                    <input type="link" name="name" class="form-control" required="required" placeholder="Facebook">
                                 </div> 
                                 <div class="form-group">
                                     <label>Liên kết Twitter</label>
-                                    <input type="link" name="name" class="form-control" required="required" value="">
+                                    <input type="link" name="name" class="form-control" required="required" placeholder="Twitter">
                                 </div>
                                 <div class="input-group">
                                     <label>Giới thiệu</label>
                                     <textarea class="form-control custom-control" rows="5"  cols="180" style="resize:none";></textarea> 
-                                    </div> 
+                                </div> 
                                 <div class="form-group pull-right">
 
-                                    <button type="submit" name="submit" class="btn btn-primary btn-lg" required="required">Cập nhật thông tin</button>
+                                 <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">Cập nhật</button>
+
+                                  <!-- Modal -->
+                                  <div class="modal fade" id="myModal" role="dialog">
+                                    <div class="modal-dialog">
+                                    
+                                      <!-- Modal content-->
+                                      <div class="modal-content">
+                                        <div class="modal-header">
+                                          <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                          <h4 class="modal-title">Cập nhật</h4>
+                                        </div>
+                                        <div class="modal-body">
+                                          <p>Bạn chắc chắn muốn thay thổi?</p>
+                                        </div>
+                                        <div class="modal-footer">
+                                          <button type="button" class="btn btn-info" data-dismiss="modal">OK</button>
+                                          <button type="button" class="btn btn-md" data-dismiss="modal">Close</button>
+                                        </div>
+                                      </div>
+                                      
+                                    </div>
+                                  </div>
+
                                 </div>
                             </div>
                         </form>        
                     </div>
+
                 </div> 
+
             </div>
         </div>  
          
