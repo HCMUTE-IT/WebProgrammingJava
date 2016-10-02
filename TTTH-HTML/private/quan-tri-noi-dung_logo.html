@@ -1,14 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
-    <title>Cập nhật thông tin | TTTH</title>
-    
+    <title>Cập nhật thông tin trung tâm | TTTH</title>
     <!-- core CSS -->
-
     <link href="../assets/css/bootstrap.css" rel="stylesheet">
     <link href="../assets/css/bootstrap.min.css" rel="stylesheet">
     <link href="../assets/css/font-awesome.min.css" rel="stylesheet">
@@ -17,21 +16,20 @@
     <link href="../assets/css/main.css" rel="stylesheet">
     <link href="../assets/css/responsive.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="../assets/css/custom.css">
-    
     <!--[if lt IE 9]>
-    <script src="js/html5shiv.js"></script>
-    <script src="js/respond.min.js"></script>
-    <![endif]-->       
+      <script src="js/html5shiv.js"></script>
+      <script src="js/respond.min.js"></script>
+      <![endif]-->
     <link rel="shortcut icon" href="../assets/images/ico/favicon.ico">
     <link rel="apple-touch-icon-precomposed" sizes="144x144" href="../assets/images/ico/apple-touch-icon-144-precomposed.png">
     <link rel="apple-touch-icon-precomposed" sizes="114x114" href="../assets/images/ico/apple-touch-icon-114-precomposed.png">
     <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../assets/images/ico/apple-touch-icon-72-precomposed.png">
     <link rel="apple-touch-icon-precomposed" href="../assets/images/ico/apple-touch-icon-57-precomposed.png">
-</head><!--/head-->
+</head>
+<!--/head-->
 
 <body>
-
-    <header id="header">
+      <header id="header">
         <div class="top-bar">
             <div class="container">
                 <div class="row">
@@ -58,7 +56,8 @@
                 </div>
             </div><!--/.container-->
         </div><!--/.top-bar-->
-    <nav class="navbar navbar-inverse" data-spy="affix" data-offset-top="48" role="banner">
+
+        <nav class="navbar navbar-inverse" data-spy="affix" data-offset-top="48" role="banner">
             <div class="container">
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -79,18 +78,18 @@
                         <li class="dropdown" >
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Quản lý <i class="fa fa-angle-down"></i></a>
                             <ul class="dropdown-menu">
-                               <li ><a href="quan-tri-noi-dung_trangchu.html">Trang chủ</a>
+                               <li class="active"><a href="quan-tri-noi-dung_trangchu.html">Trang chủ</a>
                                 </li>
                                 <li ><a href="quan-tri-noi-dung_gioithieu.html">Giới thiệu</a>
                                 </li>
                                 <li ><a href="quan-tri-noi-dung_tintucsukien.html">Tin tức- sự kiện</a>
                                 </li> 
-                                <li class="active"><a href="quan-tri-noi-dung_logo.html">Cập nhật thông tin</a>
+                                <li ><a href="quan-tri-noi-dung_logo.html">Cập nhật thông tin</a>
                                 </li>
                             </ul>
                         </li>
                         <li><a href="thong tin tai khoan.html">Thông tin tài khoản</a> 
-                        <li><a href="#">Đăng xuất</a>
+                        <li><a href="dang-nhap.html">Đăng xuất</a>
                         </li>
                     </ul>
                 </div>
@@ -98,88 +97,86 @@
             <!--/.container-->
         </nav>
         <!--/nav-->
-        
-
-        
-    </header><!--/header-->
-
-    <section id="blog" class="container">
-        <div class="blog"> 
-            <div class="panel panel-default">
-                <div class="panel-heading">
-                    <h2 class="panel-title">Cập nhật thông tin</h2>
-                </div>
-                <div class="panel-body">
-                    <div class="table-responsive">
+     <section id="blog" class="container">
+        <div class="center">
+             <h2 class="panel-title">Cập nhật thông tin trung tâm</h2><hr>
+        </div>
                           <!-- Standar Form -->
-                        <h4>Chọn logo từ máy tính của bạn</h4>
-                        <form action="" method="post" enctype="multipart/form-data" id="js-upload-form">
-                            <div class="form-inline">
-                                <div class="form-group"> 
-                                <input type="file" name="files[]" id="js-upload-files" multiple>
-                                </div><hr>  
-                                <div class="form-group">
-                                    <label>Địa chỉ</label> <br>
-                                    <input type="email" name="name" class="form-control" required="required" value="xx_xxx@gmail.com">
+                    <form id="main-contact-form" method="post" > 
+                    <div class="row">
+                        
+                        <div class="col-md-4"> 
+                            <div class="form-group">
+                             <p><strong>Thay đổi logo</strong></p>
+                            <img src="../assets/images/logo.png"" class="img-thumbnail"> 
+                            <input type="file" name="files[]" id="js-upload-files" multiple>
+                            </div> 
+                        </div>
+                        <div class="col-md-8">
+                                <div>
+                                    <label>Địa chỉ</label>
+                                    <input type="text" id="tieude" name="name" class="form-control" required="required" placeholder="Địa chỉ">
                                 </div>
                                  <div class="form-group">
-                                    <label>Địa chỉ mail</label> <br>
-                                    <input type="email" name="name" class="form-control" required="required" value="chuongnh@gmail.com">
+                                    <label>Email</label>
+                                    <input type="email" name="name" class="form-control" required="required" placeholder="Email">
                                 </div>
-                                <div class="form-group">
-                                    <label>Số điện thoại</label> <br>
-                                    <input type="text" name="name" class="form-control" required="required" value="01692892892">
+                                 <div class="form-group">
+                                    <label>Số điện thoại</label>
+                                    <input type="email" name="name" class="form-control" required="required" placeholder="Số điện thoại">
                                 </div>
-                                <div class="form-group">
-                                    <label>Chi nhánh</label> <br>
-                                    <input type="text" name="name" class="form-control" required="required" placeholder="Chi nhánh">
-                                </div> 
-                                <div class="form-group">
-                                    <label>Liên kết Facebook</label> <br>
-                                    <input type="link" name="name" class="form-control" required="required" placeholder="Facebook">
-                                </div> 
-                                <div class="form-group">
-                                    <label>Liên kết Twitter</label> <br>
-                                    <input type="link" name="name" class="form-control" required="required" placeholder="Twitter">
-                                </div>
-                            </div>
-                        </form> 
-                    </div>
-                </div> 
-
-            </div>
-            <div class="form-group">
-
-                <button type="button" class="btn btn-md btn-primary btn-lg" data-toggle="modal" data-target="#myModal">Cập nhật</button>
-
-                <!-- Modal -->
-                <div class="modal fade" id="myModal" role="dialog">
-                    <div class="modal-dialog">
-                                    
-                         <!-- Modal content-->
-                         <div class="modal-content">
-                            <div class="modal-header">
-                                <button type="button" class="close" data-dismiss="modal">&times;</button>
-                                <h4 class="modal-title">Cập nhật?</h4>
-                            </div>
-                            <div class="modal-body">
-                                <p>Bạn chắc chắn muốn thay thổi?</p>
-                            </div>
-                            <div class="modal-footer">
-                                <button type="button" class="btn btn-info" data-dismiss="modal">OK</button>
-                                <button type="button" class="btn btn-md" data-dismiss="modal">Close</button>
-                            </div>
                         </div>
+                        </div>
+                        <hr>
+                                <div class="form-group">
+                                    <label>Giới thiệu</label>
+                                    <textarea name="name" class="form-control" required="required" style="resize: none"  rows="4"></textarea>
+                                </div>
+                                <div class="form-group">
+                                    <label>Facebool</label>
+                                    <input type="link" id="tieude" name="name" class="form-control" required="required" placeholder="facebook">
+                                </div> 
+                                    <div class="form-group">
+                                    <label>Twitter</label>
+                                    <input type="link" id="tieude" name="name" class="form-control" placeholder="Twitter">
+                                </div> 
+                                    <div class="form-group">
+                                    <label>Github</label>
+                                    <input type="link" id="tieude" name="name" class="form-control" placeholder="Github">
+                                </div>
+                                <div class="form-group">
+                                    <label>Tags</label>
+                                    <input type="link" name="name" class="form-control" required="required" placeholder="link">
+                                <br> 
+                                </div> 
+                        <button type="button" id="btn" class="btn btn-dm btn-danger" data-toggle="modal" data-target="#myModal">Cập nhật</button>
+
+                                  <!-- Modal -->
+                                  <div class="modal fade" id="myModal" role="dialog">
+                                    <div class="modal-dialog">
+                                    
+                                      <!-- Modal content-->
+                                      <div class="modal-content">
+                                        <div class="modal-header">
+                                          <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                          <h4 class="modal-title">Cập nhật</h4>
+                                        </div>
+                                        <div class="modal-body">
+                                          <p>Bạn chắc chắn muốn thay thổi?</p>
+                                        </div>
+                                        <div class="modal-footer">
+                                          <button type="button" class="btn btn-info" data-dismiss="modal">OK</button>
+                                          <button type="button" class="btn btn-md" data-dismiss="modal">Close</button>
+                                        </div>
+                                      </div>
                                       
+                                    </div>
+                                  </div>
                     </div>
-                </div>
-
-            </div><!-- end Modal -->
-        </div>  
-         
+        </div> 
     </section><!--/#blog-->
-
-    <section id="bottom">
+    <br>
+   <section id="bottom">
         <div class="container wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
             <div class="row">
                 <div class="col-md-3 col-sm-6">
@@ -267,14 +264,31 @@
         </div>
     </footer><!--/#footer-->
 
+    
     <script src="../assets/js/jquery.js"></script>
     <script src="../assets/js/bootstrap.min.js"></script>
     <script src="../assets/js/jquery.prettyPhoto.js"></script>
     <script src="../assets/js/jquery.isotope.min.js"></script>
     <script src="../assets/js/main.js"></script>
-    <script src="../assets/js/wow.min.js"></script>
-    <script src="../assets/js/custom.js"></script>
+    <script src="../assets/js/wow.min.js"></script> 
+    <script src="../js/custom.js"></script>
+   <!--  <script type="text/javascript">
+    function Check(argument) {
+       // body...
+   }
+   $(document).ready(function(){
+     $("#btn").click(function(){
+       var tieude = document.getElementById("tieude").value;
+       var lentieude= tieude.length;
+       if(lentieude<3)
+       alert("Vui long nhap tieu de");
+     });
+   });
+   </script> -->
+   <!--  <script src="../assets/js/jquery-1.12.4.js"></script>
+    <script src="../assets/js/jquery-ui.js"></script> -->
+
     <!--BACK TO TOP-->
     <a id="back-to-top" href="#" class="btn btn-primary btn-md back-to-top" role="button" title="Lên đầu trang" data-toggle="tooltip" data-placement="left"><span class="glyphicon glyphicon-chevron-up"></span></a>
 </body>
-</html>
+</html> 

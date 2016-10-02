@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,25 +9,27 @@
     <title>Quản trị nội dung - Trang chủ | TTTH</title>
     
     <!-- core CSS -->
-
     <link href="../assets/css/bootstrap.css" rel="stylesheet">
     <link href="../assets/css/bootstrap.min.css" rel="stylesheet">
     <link href="../assets/css/font-awesome.min.css" rel="stylesheet">
-    <link href="../assets/css/prettyPhoto.css" rel="stylesheet">
     <link href="../assets/css/animate.min.css" rel="stylesheet">
+    <link href="../assets/css/prettyPhoto.css" rel="stylesheet">
     <link href="../assets/css/main.css" rel="stylesheet">
     <link href="../assets/css/responsive.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="../assets/css/custom.css">
-    
+
+  <!--   <link rel="stylesheet" href="../assets/css/jquery-ui.css">  -->
     <!--[if lt IE 9]>
     <script src="js/html5shiv.js"></script>
     <script src="js/respond.min.js"></script>
-    <![endif]-->       
+    <![endif]-->
     <link rel="shortcut icon" href="../assets/images/ico/favicon.ico">
     <link rel="apple-touch-icon-precomposed" sizes="144x144" href="../assets/images/ico/apple-touch-icon-144-precomposed.png">
     <link rel="apple-touch-icon-precomposed" sizes="114x114" href="../assets/images/ico/apple-touch-icon-114-precomposed.png">
     <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../assets/images/ico/apple-touch-icon-72-precomposed.png">
     <link rel="apple-touch-icon-precomposed" href="../assets/images/ico/apple-touch-icon-57-precomposed.png">
+ 
+
 </head><!--/head-->
 
 <body>
@@ -74,8 +77,8 @@
 
                 <div class="collapse navbar-collapse navbar-right">
                     <ul class="nav navbar-nav">
-                        <li><a href="../index.html">Trang chủ</a>
-                        <li><a href="gui-mail.html">Gửi mail</a>
+                        <li><a href="../index.html">Trang chủ</a></li?
+                        <li><a href="gui-mail.html">Gửi mail</a></li>
                         </li>
                         <li class="dropdown" >
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Quản lý <i class="fa fa-angle-down"></i></a>
@@ -90,9 +93,8 @@
                                 </li>
                             </ul>
                         </li>
-                        <li><a href="thong tin tai khoan.html">Thông tin tài khoản</a> 
-                        <li><a href="#">Đăng xuất</a>
-                        </li>
+                        <li><a href="thong tin tai khoan.html">Thông tin tài khoản</a></li>
+                        <li><a href="dang-nhap.html">Đăng xuất</a>
                     </ul>
                 </div>
             </div>
@@ -102,94 +104,267 @@
         
 
         
-    </header><!--/header-->
+    </header><!--/header--> 
+    <section>
+        <div class="container wow fadeInDown">
+            <div class="center">
+                <h2>Quản lý nội dung trang chủ</h2><hr><br>
+                <h2>Cập nhật Slider</h2><br>
+            </div>
 
-    <section id="blog" class="container">
-        <div class="blog"> 
-            <div class="panel panel-default">
-                <div class="panel-heading">
-                    <h2 class="panel-title">Cập nhật ảnh slider</h2>
-                </div>
-                <div class="panel-body">
-                    <div class="table-responsive">
-                          <!-- Standar Form -->
-                        <h4>Chọn hình ảnh từ máy tính của bạn</h4>
-                        <form action="" method="post" enctype="multipart/form-data" id="js-upload-form">
-                            <div class="form-inline">
-                                <div class="form-group">
-                                <input type="file" name="files[]" id="js-upload-files" multiple>
-                                <input type="file" name="files[]" id="js-upload-files" multiple>
-                                <input type="file" name="files[]" id="js-upload-files" multiple>
-                                <input type="file" name="files[]" id="js-upload-files" multiple>
-                                </div>
-                                
+            <div class="row">
+                <div class="col-xs-12 col-md-6">
+                    <div class="recent-work-wrap">
+                        <img class="img-responsive" src="../assets/images/slider/1.jpg" alt="">
+                        <div class="overlay">
+                            <div class="recent-work-inner">
+                                <h3><a href="#">TIN HỌC VĂN PHÒNG CHUẨN QUỐC TẾ</a> </h3>
+                                <p>Các lớp học tin học văn phòng A, B, C</p>
+                                <a class="preview" href="qtnd_trangchu_slider.html" rel="link" target="_blank"><i class="btn-default"></i> Chỉnh sửa</a>
                             </div>
-                            <button type="submit" class="btn btn-sm btn-primary" id="js-upload-submit">Lưu</button>
-                        </form> 
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xs-12 col-md-6">
+                    <div class="recent-work-wrap">
+                        <img class="img-responsive" src="../assets/images/slider/2.jpg" alt="">
+                        <div class="overlay">
+                            <div class="recent-work-inner">
+                                <h3><a href="#">TỔNG KHAI GIANG NGÀY 25/9/2016</a></h3>
+                                <p>Lập trình android, Lập trình OIS, Lập trình java</p>
+                                <a class="preview" href="qtnd_trangchu_slider.html" rel="link" target="_blank"><i class="btn-default"></i> Chỉnh sửa</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xs-12  col-md-12">
+                    <div class="recent-work-wrap">
+                        <img class="img-responsive" src="../assets/images/slider/3.jpg" alt="">
+                        <div class="overlay">
+                            <div class="recent-work-inner">
+                                <h3><a href="#">THIẾT KẾ ĐỒ HỌA 2D</a></h3>
+                                <p>Cho người mói bắt đầu: chỉnh sửa ảnh, thiết kế Brochure, Poster, bìa sách, tạp chí, Logo, Letter head,...</p>
+                                <a class="preview" href="qtnd_trangchu_slider.html" rel="link" target="_blank"><i class="btn-default"></i> Chỉnh sửa</a>
+                            </div>
+                        </div>
                     </div>
                 </div> 
             </div>
-        </div>  
-        <div class="blog"> 
-            <div class="panel panel-default">
-                <div class="panel-heading">
-                    <h2 class="panel-title">Cập nhật khóa học</h2>
-                </div>
-                <div class="panel-body">
-                    <div class="table-responsive">
-                          <!-- Standar Form -->
-                        <h4>Chọn hình ảnh từ máy tính của bạn</h4>
-                        <form action="" method="post" enctype="multipart/form-data" id="js-upload-form">
-                            <div class="form-inline">
-                                <div class="form-group">
-                                 <label>Khóa học #1 </label>
-                                <input type="file" name="files[]" id="js-upload-files" multiple>
-                                    <div class="input-group">
-
-                                    <textarea class="form-control custom-control" rows="3" style="resize:none ;" cols="180"></textarea> <span class="input-group-btn"> 
-                                    </span>
-                                    </div> <br>
-                                    <label>Khóa học #2</label>
-                                <input type="file" name="files[]" id="js-upload-files" multiple>
-                                    <div class="input-group">
-                                    <textarea class="form-control custom-control" rows="3" style="resize:none;" cols="180"></textarea> <span class="input-group-btn"> 
-                                    </span>
-                                    </div> <br>
-                                    <label>Khóa học #3</label>
-                                <input type="file" name="files[]" id="js-upload-files" multiple>
-                                    <div class="input-group">
-                                    <textarea class="form-control custom-control" rows="3" style="resize:none;" cols="180"></textarea> <span class="input-group-btn"> 
-                                    </span>
-                                     </div> <br>
-                                    <label>Khóa học #3</label>
-                                <input type="file" name="files[]" id="js-upload-files" multiple>
-                                    <div class="input-group">
-                                    <textarea class="form-control custom-control" rows="3" style="resize:none;" cols="180"></textarea> <span class="input-group-btn"> 
-                                    </span>
-                                     </div> <br>
-                                    <label>Khóa học #3</label>
-                                <input type="file" name="files[]" id="js-upload-files" multiple>
-                                    <div class="input-group">
-                                    <textarea class="form-control custom-control" rows="3" style="resize:none;" cols="180"></textarea> <span class="input-group-btn"> 
-                                    </span>
-                                     </div> <br>
-                                    <label>Khóa học #3</label>
-                                <input type="file" name="files[]" id="js-upload-files" multiple>
-                                    <div class="input-group">
-                                    <textarea class="form-control custom-control" rows="3" style="resize:none;" cols="180"></textarea> <span class="input-group-btn"> 
-                                    </span>
-                                     </div> <br>
-                                    <label>Khóa học #3</label>
-                                </div>
-                                <button type="submit" class="btn btn-sm btn-primary" id="js-upload-submit">Lưu</button>
-                            </div>
-                        </form> 
-                    </div>
-                </div> 
+            <!--/.row-->
+        </div>
+        <!--/.container-->
+    </section>
+    <!--/#recent-works-->
+    <section id="recent-works">
+        <div class="container wow fadeInDown">
+            <div class="center">
+                <h2>Cập nhật Khóa Học Mới</h2><br>
             </div>
-        </div>  
-    </section><!--/#blog-->
 
+            <div class="row">
+                <div class="col-xs-12 col-sm-4 col-md-3">
+                    <div class="recent-work-wrap">
+                        <img class="img-responsive" src="../assets/images/portfolio/recent/item1.png" alt="">
+                        <div class="overlay">
+                            <div class="recent-work-inner">
+                                <h3><a href="#">Java</a> </h3>
+                                <p>Lập trình căn bản cho người mới bắt đầu</p>
+                                <a class="preview" href="qtnd_trangchu_khoahoc.html" rel="link" target="_blank"><i class="btn-default"></i> Chỉnh sửa</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xs-12 col-sm-4 col-md-3">
+                    <div class="recent-work-wrap">
+                        <img class="img-responsive" src="../assets/images/portfolio/recent/item2.png" alt="">
+                        <div class="overlay">
+                            <div class="recent-work-inner">
+                                <h3><a href="#">Android</a></h3>
+                                <p>Lập trình căn bản cho người mới bắt đầu</p>
+                                <a class="preview" href="qtnd_trangchu_khoahoc.html" rel="link" target="_blank"><i class="btn-default"></i> Chỉnh sửa</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xs-12 col-sm-4 col-md-3">
+                    <div class="recent-work-wrap">
+                        <img class="img-responsive" src="../assets/images/portfolio/recent/item3.png" alt="">
+                        <div class="overlay">
+                            <div class="recent-work-inner">
+                                <h3><a href="#">Android </a></h3>
+                                <p>Lập trình căn bản cho người mới bắt đầu</p>
+                                <a class="preview" href="qtnd_trangchu_khoahoc.html" rel="link" target="_blank"><i class="btn-default"></i> Chỉnh sửa</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xs-12 col-sm-4 col-md-3">
+                    <div class="recent-work-wrap">
+                        <img class="img-responsive" src="../assets/images/portfolio/recent/item4.png" alt="">
+                        <div class="overlay">
+                            <div class="recent-work-inner">
+                                <h3><a href="#">Android </a></h3>
+                                <p>Lập trình căn bản cho người mới bắt đầu</p>
+                                <a class="preview" href="qtnd_trangchu_khoahoc.html" rel="link" target="_blank"><i class="btn-default"></i> Chỉnh sửa</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xs-12 col-sm-4 col-md-3">
+                    <div class="recent-work-wrap">
+                        <img class="img-responsive" src="../assets/images/portfolio/recent/item5.png" alt="">
+                        <div class="overlay">
+                            <div class="recent-work-inner">
+                                <h3><a href="#">Window phone</a></h3>
+                                <p>Lập trình căn bản cho người mới bắt đầu</p>
+                                <a class="preview" href="qtnd_trangchu_khoahoc.html" rel="link" target="_blank"><i class="btn-default"></i> Chỉnh sửa</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xs-12 col-sm-4 col-md-3">
+                    <div class="recent-work-wrap">
+                        <img class="img-responsive" src="../assets/images/portfolio/recent/item6.png" alt="">
+                        <div class="overlay">
+                            <div class="recent-work-inner">
+                                <h3><a href="#">Android </a></h3>
+                                <p>Lập trình căn bản cho người mới bắt đầu</p>
+                                <a class="preview" href="qtnd_trangchu_khoahoc.html" rel="link" target="_blank"><i class="btn-default"></i> Chỉnh sửa</a></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xs-12 col-sm-4 col-md-3">
+                    <div class="recent-work-wrap">
+                        <img class="img-responsive" src="../assets/images/portfolio/recent/item7.png" alt="">
+                        <div class="overlay">
+                            <div class="recent-work-inner">
+                                <h3><a href="#">Android </a></h3>
+                                <p>Lập trình căn bản cho người mới bắt đầu</p>
+                                <a class="preview" href="qtnd_trangchu_khoahoc.html" rel="link" target="_blank"><i class="btn-default"></i> Chỉnh sửa</a></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xs-12 col-sm-4 col-md-3">
+                    <div class="recent-work-wrap">
+                        <img class="img-responsive" src="../assets/images/portfolio/recent/item8.png" alt="">
+                        <div class="overlay">
+                            <div class="recent-work-inner">
+                                <h3><a href="#">Android </a></h3>
+                                <p>Lập trình căn bản cho người mới bắt đầu</p>
+                                <a class="preview" href="qtnd_trangchu_khoahoc.html" rel="link" target="_blank"><i class="btn-default"></i> Chỉnh sửa</a></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--/.row-->
+        </div>
+        <!--/.container-->
+    </section>
+    <!--/#recent-works-->
+    <section iclass="blog"> 
+        <div class="container">
+            <div class="center wow fadeInDown animated" style="visibility: visible; animation-name: fadeInDown;">
+                <h2>Cập nhật chương Trình Đào Tạo</h2><br>
+            </div>
+
+            <div class="row">
+
+                <div class="col-sm-6 col-md-4">
+                    <div class="media services-wrap wow fadeInDown animated" style="visibility: visible; animation-name: fadeInDown;">
+                        <div class="pull-left">
+                            <img class="img-responsive" src="../assets/images/services/services1.png">
+                        </div>
+                        <div class="media-body">
+                            <h3 class="media-heading">OOP</h3>
+                            <p>Lập trình căn bản cho người mới bắt đầu</p>
+                            <a href="qtnd_trangchu_ctdaotao.html" target="_blank">Chỉnh sửa</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-md-4">
+                    <div class="media services-wrap wow fadeInDown animated" style="visibility: visible; animation-name: fadeInDown;">
+                        <div class="pull-left">
+                            <img class="img-responsive" src="../assets/images/services/services2.png">
+                        </div>
+                        <div class="media-body">
+                            <h3 class="media-heading">Java</h3>
+                            <p>Lập trình căn bản cho người mới bắt đầu</p>
+                            <a href="qtnd_trangchu_ctdaotao.html" target="_blank">Chỉnh sửa</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-md-4">
+                    <div class="media services-wrap wow fadeInDown animated" style="visibility: visible; animation-name: fadeInDown;">
+                        <div class="pull-left">
+                            <img class="img-responsive" src="../assets/images/services/services3.png">
+                        </div>
+                        <div class="media-body">
+                            <h3 class="media-heading">Java</h3>
+                            <p>Lập trình căn bản cho người mới bắt đầu</p>
+                            <a href="qtnd_trangchu_ctdaotao.html" target="_blank">Chỉnh sửa</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-md-4">
+                    <div class="media services-wrap wow fadeInDown animated" style="visibility: visible; animation-name: fadeInDown;">
+                        <div class="pull-left">
+                            <img class="img-responsive" src="../assets/images/services/services4.png">
+                        </div>
+                        <div class="media-body">
+                            <h3 class="media-heading">Java</h3>
+                            <p>Lập trình căn bản cho người mới bắt đầu</p>
+                            <a href="qtnd_trangchu_ctdaotao.html" target="_blank">Chỉnh sửa</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-md-4">
+                    <div class="media services-wrap wow fadeInDown animated" style="visibility: visible; animation-name: fadeInDown;">
+                        <div class="pull-left">
+                            <img class="img-responsive" src="../assets/images/services/services5.png">
+                        </div>
+                        <div class="media-body">
+                            <h3 class="media-heading">Java</h3>
+                            <p>Lập trình căn bản cho người mới bắt đầu</p>
+                            <a href="qtnd_trangchu_ctdaotao.html" target="_blank">Chỉnh sửa</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-md-4">
+                    <div class="media services-wrap wow fadeInDown animated" style="visibility: visible; animation-name: fadeInDown;">
+                        <div class="pull-left">
+                            <img class="img-responsive" src="../assets/images/services/services6.png">
+                        </div>
+                        <div class="media-body">
+                            <h3 class="media-heading">Java</h3>
+                            <p>Lập trình căn bản cho người mới bắt đầu</p>
+                            <a href="qtnd_trangchu_ctdaotao.html" target="_blank">Chỉnh sửa</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--/.row-->
+        </div>
+        <!--/.container-->
+    </div>
+    </section>
+    <a href=""></a>
     <section id="bottom">
         <div class="container wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
             <div class="row">
@@ -228,7 +403,7 @@
                         <h3>Developers</h3>
                         <ul>
                             <li><a href="#">Web Development</a></li>
-                            <li><a href="#">SEO Marketing</a></li>
+                            <li><a href="#">Java</a></li>
                             <li><a href="#">Theme</a></li>
                             <li><a href="#">Development</a></li>
                             <li><a href="#">Email Marketing</a></li>
@@ -251,8 +426,7 @@
                             <li><a href="#">Laboris</a></li>
                         </ul>
                     </div>    
-                </div><!--/.col-md-3-->
-            </div>
+                </div><!--/.col-md-3--> 
         </div>
     </section><!--/#bottom-->
 
@@ -278,13 +452,18 @@
         </div>
     </footer><!--/#footer-->
 
+    
     <script src="../assets/js/jquery.js"></script>
     <script src="../assets/js/bootstrap.min.js"></script>
     <script src="../assets/js/jquery.prettyPhoto.js"></script>
     <script src="../assets/js/jquery.isotope.min.js"></script>
     <script src="../assets/js/main.js"></script>
-    <script src="../assets/js/wow.min.js"></script>
-    <script src="../assets/js/custom.js"></script>
+    <script src="../assets/js/wow.min.js"></script> 
+    <script src="../js/custom.js"></script>
+    
+   <!--  <script src="../assets/js/jquery-1.12.4.js"></script>
+    <script src="../assets/js/jquery-ui.js"></script> -->
+
     <!--BACK TO TOP-->
     <a id="back-to-top" href="#" class="btn btn-primary btn-md back-to-top" role="button" title="Lên đầu trang" data-toggle="tooltip" data-placement="left"><span class="glyphicon glyphicon-chevron-up"></span></a>
 </body>

@@ -25,6 +25,9 @@
     <link rel="apple-touch-icon-precomposed" sizes="114x114" href="../assets/images/ico/apple-touch-icon-114-precomposed.png">
     <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../assets/images/ico/apple-touch-icon-72-precomposed.png">
     <link rel="apple-touch-icon-precomposed" href="../assets/images/ico/apple-touch-icon-57-precomposed.png">
+    
+    <link rel="stylesheet" type="text/css" href="../assets/css/jquery.datatables.min.css"/>
+
 </head>
 <!--/head-->
 
@@ -97,68 +100,135 @@
             <!--/.container-->
         </nav>
         <!--/nav-->
-     <section id="blog" class="container">
-        <div class="center">
-             <h2 class="panel-title">Cập nhật tin tức- sự kiện</h2><hr>
-        </div>
-                          <!-- Standar Form -->
-                    <form id="main-contact-form" method="post" > 
-                    <div class="row">
-                        
-                        <div class="col-md-4"> 
-                            <div class="form-group">
-                             <p><strong>Thay đổi ảnh</strong></p>
-                            <img src="../assets/images/blog/blog2.jpg" class="img-thumbnail"> 
-                            <input type="file" name="files[]" id="js-upload-files" multiple>
-                            </div> 
-                        </div>
-                        <div class="col-md-8">
-                                <div>
-                                    <label>Tiêu để</label>
-                                    <input type="text" id="tieude" name="name" class="form-control" required="required" placeholder="Địa chỉ">
-                                </div>
-                                 <div class="form-group">
-                                    <label>Mô tả</label>
-                                    <input type="text" name="name" class="form-control" required="required" placeholder="Mô tả">
-                                </div>
-                                 <div class="form-group">
-                                    <label>Nội dung</label>
-                                    <input type="email" name="name" class="form-control" required="required" placeholder="Số điện thoại">
-                                </div>  
-                                    <div class="form-group">
-                                    <label>Link</label>
-                                    <input type="link" id="tieude" name="name" class="form-control" placeholder="Link">
-                                </div>
-                        </div>
-                        </div> 
-                         
-                        <button type="button" id="btn" class="btn btn-dm btn-danger" data-toggle="modal" data-target="#myModal">Cập nhật</button>
+     <div class="content">
+        <div class="container">
+            <div class="center">
+                <h2>Quản lý tin tức- sự kiện</h2><br>
+                <a href="quan-tri-noi-dung_tintucsukien.html" class="text_size"><img src="../assets/images/add.png" height="30" alt=""></a>
+                <a href="quan-tri-noi-dung_tintucsukien.html" class="text_size">Thêm tin tức</a><br>
+                <br> 
+            </div>
+
+    <table id="example" class="display" width="100%">
+        <thead>
+            <tr>
+                <th>STT</th>
+                <th>Hình ảnh</th>
+                <th>Tiêu đề</th>
+                <th>Mô tả</th>
+                <th>Nội dung</th>
+                <th>Link</th>
+                <th>Chỉnh xửa</th>
+                <th>Xóa</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>/img.png</td>
+                <td>CÁCH CHIA SẺ DỮ LIỆU QUA MẠNG LAN TRÊN WINDOW 10</td>
+                <td>Học viên đã đăng ký được giảm 20% học phí, Học viên tốt nghiệp chương trình dài hạn của tring tâm được giảm 30% học phí.</td>
+                <td>Học viên đã đăng ký được giảm 20% học phí, Học viên tốt nghiệp chương trình dài hạn của tring tâm được giảm 30% học phí.</td>
+                <td>/uudaihocphi.html</td>
+                <td><a href="quan-tri-noi-dung_tintucsukien.html" target="_blank">Chỉnh sửa</a></td>
+                <td> 
+                 <button type="button" id="btn" class="btn btn-sm btn-danger" data-toggle="modal" data-target="#myModal">Xóa</button>  
 
                                   <!-- Modal -->
-                                  <div class="modal fade" id="myModal" role="dialog">
-                                    <div class="modal-dialog">
+                     <div class="modal fade" id="myModal" role="dialog">
+                         <div class="modal-dialog">
                                     
-                                      <!-- Modal content-->
-                                      <div class="modal-content">
-                                        <div class="modal-header">
-                                          <button type="button" class="close" data-dismiss="modal">&times;</button>
-                                          <h4 class="modal-title">Cập nhật</h4>
-                                        </div>
-                                        <div class="modal-body">
-                                          <p>Bạn chắc chắn muốn thay thổi?</p>
-                                        </div>
-                                        <div class="modal-footer">
-                                          <button type="button" class="btn btn-info" data-dismiss="modal">OK</button>
-                                          <button type="button" class="btn btn-md" data-dismiss="modal">Close</button>
-                                        </div>
-                                      </div>
+                            <!-- Modal content-->
+                            <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                    <h4 class="modal-title">Xóa</h4>
+                            </div>
+                            <div class="modal-body">
+                                <p>Bạn chắc chắn muốn xóa?</p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-info" data-dismiss="modal">OK</button>
+                                 <button type="button" class="btn btn-md" data-dismiss="modal">Close</button>
+                            </div>
+                            </div>
                                       
-                                    </div>
-                                  </div>
-                    </div>
-        </div> 
-    </section><!--/#blog-->
-    <br>
+                            </div>
+                     </div>   
+                </td>
+            </tr> 
+            <tr>
+                <td>2</td>
+                <td>/img1.png</td>
+                <td>THÔNG TIN ƯU ĐÃI HỌC PHÍ</td>
+                <td>LAN là viết tắt của cụm từ Local Area Network (hay còn gọi là mạng máy tính cục bộ)</td>
+                <td>LAN là viết tắt của cụm từ Local Area Network (hay còn gọi là mạng máy tính cục bộ) nó là một hệ thống mạng giúp người dùng có thể kết nối 2 hay nhiều máy tính với nhau trong một phạm vi nhỏ và thường được sử dụng trong các cơ quan, trường học, công ty..</td>
+                <td>/uudaihocphi.html</td>
+                <td><a href="quan-tri-noi-dung_tintucsukien.html" target="_blank">Chỉnh sửa</a></td>
+                <td> 
+                 <button type="button" id="btn" class="btn btn-sm btn-danger" data-toggle="modal" data-target="#myModal">Xóa</button>  
+
+                                  <!-- Modal -->
+                     <div class="modal fade" id="myModal" role="dialog">
+                         <div class="modal-dialog">
+                                    
+                            <!-- Modal content-->
+                            <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                    <h4 class="modal-title">Xóa</h4>
+                            </div>
+                            <div class="modal-body">
+                                <p>Bạn chắc chắn muốn xóa?</p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-info" data-dismiss="modal">OK</button>
+                                 <button type="button" class="btn btn-md" data-dismiss="modal">Close</button>
+                            </div>
+                            </div>
+                                      
+                            </div>
+                     </div>   
+                </td>
+            </tr> 
+            <tr>
+                <td>3</td>
+                <td>/img2.png</td>
+                <td>THÔNG TIN ƯU ĐÃI HỌC PHÍ</td>
+                <td>Học viên đã đăng ký được giảm 20% học phí, Học viên tốt nghiệp chương trình dài hạn của tring tâm được giảm 30% học phí.</td>
+                <td>Học viên đã đăng ký được giảm 20% học phí, Học viên tốt nghiệp chương trình dài hạn của tring tâm được giảm 30% học phí.</td>
+                <td>/uudaihocphi.html</td>
+                <<td><a href="quan-tri-noi-dung_tintucsukien.html" target="_blank">Chỉnh sửa</a></td>
+                <td> 
+                 <button type="button" id="btn" class="btn btn-sm btn-danger" data-toggle="modal" data-target="#myModal">Xóa</button>  
+
+                                  <!-- Modal -->
+                     <div class="modal fade" id="myModal" role="dialog">
+                         <div class="modal-dialog">
+                                    
+                            <!-- Modal content-->
+                            <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                    <h4 class="modal-title">Xóa</h4>
+                            </div>
+                            <div class="modal-body">
+                                <p>Bạn chắc chắn muốn xóa?</p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-info" data-dismiss="modal">OK</button>
+                                 <button type="button" class="btn btn-md" data-dismiss="modal">Close</button>
+                            </div>
+                            </div>
+                                      
+                            </div>
+                     </div>   
+                </td>
+            </tr> 
+        </tbody>
+    </table>
+    </div>
+    </div>
    <section id="bottom">
         <div class="container wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
             <div class="row">
@@ -254,7 +324,17 @@
     <script src="../assets/js/jquery.isotope.min.js"></script>
     <script src="../assets/js/main.js"></script>
     <script src="../assets/js/wow.min.js"></script> 
-    <script src="../js/custom.js"></script>
+    <script src="../assets/js/custom.js"></script>
+
+    <script src="../assets/js/jquery-1.12.3.js"></script>
+    <script src="../assets/js/datatables.min.js"></script>
+    
+    <script type="text/javascript">
+        $(document).ready(function() {
+    $('#example').DataTable();
+} );
+    </script>
+
    <!--  <script type="text/javascript">
     function Check(argument) {
        // body...

@@ -1,3 +1,4 @@
+
 ::-webkit-scrollbar {
     background: #E4DDDF;
     width: 11px;
@@ -80,11 +81,13 @@
 }
 .table{
     background-color: #ffffff !important;
-}
+}/*
 .table th, td{
     text-align: center;
+}*/
+#example tr td{
+     background-image: url("../images/glassy-orange-pattern.jpg"); 
 }
-
 .accordion a{
     color:#ffffff;
 }
@@ -133,10 +136,52 @@
     border: 1px solid #DEDEDE; 
 }
 .panel .panel-body{
-    background-color: #ffffff;
+     background-image: url("../images/glassy-orange-pattern.jpg"); 
 
-    padding: 5px 0px 0px 0px;
+    padding: 5px 5px 5px 5px;
 }
 .page-header h1{
     color: #000000;
 }
+.label_slider_homepage{
+    font-size: 20px;
+}
+.text_size{
+    font-size: 18px;
+} 
+a:link {
+    color: blue;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:visited {
+    color: violet
+    background-color:transparent;
+    text-decoration: underline;
+}
+a:hover {
+    color: blue;
+    background-color: transparent;
+    text-decoration: underline;
+}
+a:active {
+    color: violet;
+    background-color: transparent;
+    text-decoration: underline;
+} 
+body {
+    background-image: url("../images/glassy-orange-pattern.jpg"); 
+}
+label, input { display:block; }
+    input.text { margin-bottom:12px; width:95%; padding: .4em; }
+    fieldset { padding:0; border:0; margin-top:25px; }
+    h1 { font-size: 1.2em; margin: .6em 0; }
+    div#users-contain { width: 350px; margin: 20px 0; }
+    div#users-contain table { margin: 1em 0; border-collapse: collapse; width: 100%; }
+    div#users-contain table td, div#users-contain table th { border: 1px solid #eee; padding: .6em 10px; text-align: left; }
+    .ui-dialog .ui-state-error { padding: .3em; }
+    .validateTips { border: 1px solid transparent; padding: 0.3em; }
+/*?*/ 
+
+
+/*/*/
