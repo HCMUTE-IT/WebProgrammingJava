@@ -41,9 +41,12 @@
     margin-top: -5px;
     margin-bottom: : -5px;
 }
-
-.table td{
+.table-khaigiang th tr td{
+    background-color: #ffffff !important;
+}
+.table tr td{
     padding-top: 12px !important;
+    background-image: url("../images/glassy-orange-pattern.jpg"); 
 }
 .table td a{
     padding-top: 4px !important;
@@ -79,9 +82,9 @@
     padding-top: 2px !important;
     padding-bottom: 2px !important;
 }
-.table{
+/*.table{
     background-color: #ffffff !important;
-}/*
+}*//*
 .table th, td{
     text-align: center;
 }*/

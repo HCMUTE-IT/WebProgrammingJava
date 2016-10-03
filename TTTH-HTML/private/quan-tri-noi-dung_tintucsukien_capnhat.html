@@ -16,6 +16,8 @@
     <link href="../assets/css/main.css" rel="stylesheet">
     <link href="../assets/css/responsive.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="../assets/css/custom.css">
+    <link rel="stylesheet" type="text/css" href="../assets/css/jquery.datatables.min.css"/>
+
     <!--[if lt IE 9]>
       <script src="js/html5shiv.js"></script>
       <script src="js/respond.min.js"></script>
@@ -26,13 +28,13 @@
     <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../assets/images/ico/apple-touch-icon-72-precomposed.png">
     <link rel="apple-touch-icon-precomposed" href="../assets/images/ico/apple-touch-icon-57-precomposed.png">
     
-    <link rel="stylesheet" type="text/css" href="../assets/css/jquery.datatables.min.css"/>
+   
 
 </head>
 <!--/head-->
 
 <body>
-      <header id="header">
+          <header id="header">
         <div class="top-bar">
             <div class="container">
                 <div class="row">
@@ -81,18 +83,18 @@
                         <li class="dropdown" >
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Quản lý <i class="fa fa-angle-down"></i></a>
                             <ul class="dropdown-menu">
-                               <li class="active"><a href="quan-tri-noi-dung_trangchu.html">Trang chủ</a>
+                               <li ><a href="quan-tri-noi-dung_trangchu.html">Trang chủ</a>
                                 </li>
                                 <li ><a href="quan-tri-noi-dung_gioithieu.html">Giới thiệu</a>
                                 </li>
-                                <li ><a href="quan-tri-noi-dung_tintucsukien.html">Tin tức- sự kiện</a>
+                                <li class="active"><a href="quan-tri-noi-dung_tintucsukien_capnhat.html">Tin tức- sự kiện</a>
                                 </li> 
                                 <li ><a href="quan-tri-noi-dung_logo.html">Cập nhật thông tin</a>
                                 </li>
                             </ul>
                         </li>
-                        <li><a href="thong tin tai khoan.html">Thông tin tài khoản</a> 
-                        <li><a href="dang-nhap.html">Đăng xuất</a>
+                        <li><a href="thong tin tai khoan.html">Thông tin tài khoản</a> </li>
+                        <li><a href="dang-nhap.html">Đăng xuất</a></li>
                         </li>
                     </ul>
                 </div>
@@ -100,15 +102,13 @@
             <!--/.container-->
         </nav>
         <!--/nav-->
+</header>
      <div class="content">
-        <div class="container">
-            <div class="center">
-                <h2>Quản lý tin tức- sự kiện</h2><br>
-                <a href="quan-tri-noi-dung_tintucsukien.html" class="text_size"><img src="../assets/images/add.png" height="30" alt=""></a>
-                <a href="quan-tri-noi-dung_tintucsukien.html" class="text_size">Thêm tin tức</a><br>
-                <br> 
-            </div>
-
+        <div class="container"> 
+                <h2>Quản lý tin tức- sự kiện</h2><hr>
+                <a href="quan-tri-noi-dung_tintucsukien.html" ><img src="../assets/images/add.png" height="30" alt=""></a>
+                <a href="quan-tri-noi-dung_tintucsukien.html" class="text_size">Thêm tin tức</a><br><br>
+                <br>  
     <table id="example" class="display" width="100%">
         <thead>
             <tr>
@@ -191,14 +191,14 @@
                      </div>   
                 </td>
             </tr> 
-            <tr>
+             <tr>
                 <td>3</td>
-                <td>/img2.png</td>
+                <td>/img1.png</td>
                 <td>THÔNG TIN ƯU ĐÃI HỌC PHÍ</td>
-                <td>Học viên đã đăng ký được giảm 20% học phí, Học viên tốt nghiệp chương trình dài hạn của tring tâm được giảm 30% học phí.</td>
-                <td>Học viên đã đăng ký được giảm 20% học phí, Học viên tốt nghiệp chương trình dài hạn của tring tâm được giảm 30% học phí.</td>
+                <td>LAN là viết tắt của cụm từ Local Area Network (hay còn gọi là mạng máy tính cục bộ)</td>
+                <td>LAN là viết tắt của cụm từ Local Area Network (hay còn gọi là mạng máy tính cục bộ) nó là một hệ thống mạng giúp người dùng có thể kết nối 2 hay nhiều máy tính với nhau trong một phạm vi nhỏ và thường được sử dụng trong các cơ quan, trường học, công ty..</td>
                 <td>/uudaihocphi.html</td>
-                <<td><a href="quan-tri-noi-dung_tintucsukien.html" target="_blank">Chỉnh sửa</a></td>
+                <td><a href="quan-tri-noi-dung_tintucsukien.html" target="_blank">Chỉnh sửa</a></td>
                 <td> 
                  <button type="button" id="btn" class="btn btn-sm btn-danger" data-toggle="modal" data-target="#myModal">Xóa</button>  
 
@@ -225,6 +225,7 @@
                      </div>   
                 </td>
             </tr> 
+               
         </tbody>
     </table>
     </div>
