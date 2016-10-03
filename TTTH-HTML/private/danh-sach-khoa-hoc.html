@@ -17,7 +17,6 @@
     <link href="../assets/css/main.css" rel="stylesheet">
     <link href="../assets/css/responsive.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="../assets/css/custom.css">
-    <link rel="stylesheet" type="text/css" href="../assets/css/jquery.datatables.min.css"/>
     
     <!--[if lt IE 9]>
     <script src="js/html5shiv.js"></script>
@@ -81,7 +80,7 @@
                         <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Quản lý <i class="fa fa-angle-down"></i></a>
                             <ul class="dropdown-menu">
-                                <li class="active"><a href="danh-sach-khoa-hoc.html">Danh sách khóa học</a>
+                                <li><a href="danh-sach-khoa-hoc.html">Danh sách khóa học</a>
                                 </li>
                                 <li><a href="pricing.html">Xuất danh sách học viên</a>
                                 </li>
@@ -100,17 +99,21 @@
             </div>
             <!--/.container-->
         </nav>
-        <!--/nav--> 
+        <!--/nav-->
+
+        
     </header><!--/header-->
 
     <section id="blog" class="container">
-     <div class="center">
-            <h2>Danh sách học viên</h2><hr> <br>
-        </div>
-        <div class="blog"> 
+        <div class="blog">
             <div class="row">
-                 <div class="col-md-9">   
-                      <table id="example" class="display" width="100%" class="hover">
+                 <div class="col-md-9">
+                 <div class="panel panel-default">
+                  <div class="panel-heading">
+                    <h3 class="panel-title">Danh sách khóa học</h3>
+                  </div>
+                  <div class="panel-body">
+                     <table class="table table-hover">
                         <thead>
                           <tr class="danger">
                             <th>Mã lớp học</th>
@@ -131,7 +134,7 @@
                             <td>T6 - CN</td>
                             <td>18h00 - 21h00</td>
                             <td><a type="button" class="btn btn-primary btn-sm">Sửa</a></td>
-                            <td><a href="chi-tiet-khoa-hoc.html" class="btn btn-primary btn-sm" type="button">Chi tiết</a></td>
+                            <td><a href="chi-tiet-khoa-hoc.html" class="btn btn-primary btn-sm">Chi tiết</a></td>
                           </tr>
                           <tr>
                             <td>LAND1609E2</td>
@@ -140,7 +143,7 @@
                             <td>T6 - CN</td>
                             <td>18h00 - 21h00</td>
                             <td><a type="button" class="btn btn-primary btn-sm">Sửa</a></td>
-                            <td><a href="chi-tiet-khoa-hoc.html" class="btn btn-primary btn-sm" type="button">Chi tiết</a></td>
+                            <td><a href="chi-tiet-khoa-hoc.html" type="button" class="btn btn-primary btn-sm">Chi tiết</a></td>
                           </tr>
                           <tr>
                             <td>LAND1609E2</td>
@@ -149,7 +152,7 @@
                             <td>T6 - CN</td>
                             <td>18h00 - 21h00</td>
                             <td><a type="button" class="btn btn-primary btn-sm">Sửa</a></td>
-                            <td><a href="chi-tiet-khoa-hoc.html" class="btn btn-primary btn-sm" type="button">Chi tiết</a></td>
+                            <td><a href="chi-tiet-khoa-hoc.html" type="button" class="btn btn-primary btn-sm">Chi tiết</a></td>
                           </tr>
                           <tr>
                             <td>LAND1609E2</td>
@@ -170,30 +173,39 @@
                             <td><a href="chi-tiet-khoa-hoc.html"type="button" class="btn btn-primary btn-sm">Chi tiết</a></td>
                           </tr>
                         </tbody>
-                    </table> 
+                    </table>
+                  </div>
+                </div>
                 <div class="pull-right">
                     <button type="button" class="btn btn-primary btn-sm">Xuất danh sách</button>
                     <button type="button" class="btn btn-primary btn-sm">Thêm mới</button>
                 </div>
-                </div><!--/.col-md-9-->
+                </div><!--/.col-md-8-->
 
                 <aside class="col-md-3">
                     <div class="widget search">
                         <form role="form">
                                 <input type="text" class="form-control search_box" autocomplete="off" placeholder="Tìm kiếm">
                         </form>
-                    </div><!--/.search--> 
+                    </div><!--/.search-->
+                    
+
+                    
                     <div class="widget archieve">
-                        <h3>Archieve</h3> 
+                        <h3>Archieve</h3>
+                        <div class="row">
+                            <div class="col-sm-12">
                                 <ul class="blog_archieve">
                                     <li><a href="#"><i></i> Xuất danh sách học viên</span></a></li>
                                     <li><a href="#"><i></i> November 2013</a></li>
                                     <li><a href="#"><i></i> October 2013</a></li>
                                     <li><a href="#"><i></i> September 2013</a></li>
-                                </ul> 
+                                </ul>
+                            </div>
+                        </div>                     
                     </div><!--/.archieve-->
                 </aside>  
-            </div><!--/.row--> 
+            </div><!--/.row-->
         </div>
     </section><!--/#blog-->
 
@@ -292,15 +304,6 @@
     <script src="../assets/js/main.js"></script>
     <script src="../assets/js/wow.min.js"></script>
     <script src="../assets/js/custom.js"></script>
-
-     <script src="../assets/js/jquery-1.12.3.js"></script>
-    <script src="../assets/js/datatables.min.js"></script>
-    
-    <script type="text/javascript">
-        $(document).ready(function() {
-    $('#example').DataTable();
-} );
-    </script>
     <!--BACK TO TOP-->
     <a id="back-to-top" href="#" class="btn btn-primary btn-md back-to-top" role="button" title="Lên đầu trang" data-toggle="tooltip" data-placement="left"><span class="glyphicon glyphicon-chevron-up"></span></a>
 </body>
