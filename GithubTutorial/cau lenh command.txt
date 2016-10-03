@@ -1,0 +1,29 @@
+push repository to github
+1 git init (in the root folder where your code is located)
+2 git add -A (this will add all the files and folders in your directory to be committed)
+3 git commit -am "First Project commit"
+4 git remote add origin https://github.com/YourGithubName/your-repo-name.git (you'll find this address on the GitHub repository you just created under "ssh clone URL" on the main page)
+5 git push -u origin master
+That's it. Your code will now be pushed up to GitHub. Now every time you want to keep pushing code that has changed just do.
+---------------------------------------------
+Clone
+
+1 git clone  https://github.com/YourGithubName/your-repo-name.git
+---------------------------------------------
+-sau khi push lên hoặc clone về nếu có gì thay đổi muốn push lên lại thì làm 3 lệnh này.
+1 git add .
+2 git commit -m "New changes"
+3 git push origin master (if master is the branch you are working on)
+----------------------------------------------
+Đổi tên và email khi làm việc với github
+1 git config --global user.name "your-name"
+2 git config --global user.ename "your-email"
+----------------------------------------------
+tag "tên ai đó"
+-- git tag tenaido
+   git push orgin tenaido
+   
+   
+   
+
+
