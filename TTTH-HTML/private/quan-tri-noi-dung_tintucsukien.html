@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -6,8 +7,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
-    <title>Cập nhật tin tức-sự kiện | TTTH</title>
+    <title>Quản Trị Nội dung | TTTH</title>
+
+
     <!-- core CSS -->
+
     <link href="../assets/css/bootstrap.css" rel="stylesheet">
     <link href="../assets/css/bootstrap.min.css" rel="stylesheet">
     <link href="../assets/css/font-awesome.min.css" rel="stylesheet">
@@ -16,10 +20,11 @@
     <link href="../assets/css/main.css" rel="stylesheet">
     <link href="../assets/css/responsive.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="../assets/css/custom.css">
+
     <!--[if lt IE 9]>
-      <script src="js/html5shiv.js"></script>
-      <script src="js/respond.min.js"></script>
-      <![endif]-->
+    <script src="js/html5shiv.js"></script>
+    <script src="js/respond.min.js"></script>
+    <![endif]-->
     <link rel="shortcut icon" href="../assets/images/ico/favicon.ico">
     <link rel="apple-touch-icon-precomposed" sizes="144x144" href="../assets/images/ico/apple-touch-icon-144-precomposed.png">
     <link rel="apple-touch-icon-precomposed" sizes="114x114" href="../assets/images/ico/apple-touch-icon-114-precomposed.png">
@@ -29,35 +34,9 @@
 <!--/head-->
 
 <body>
-          <header id="header">
-        <div class="top-bar">
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-6 col-xs-4">
-                        <div class="top-number"><p><i class="fa fa-phone-square"></i>  0164 7931 390</p></div>
-                    </div>
-                    <div class="col-sm-6 col-xs-8">
-                       <div class="social">
-                            <ul class="social-share">
-                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                <li><a href="#"><i class="fa fa-linkedin"></i></a></li> 
-                                <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
-                                <li><a href="#"><i class="fa fa-skype"></i></a></li>
-                            </ul>
-                            <div class="search">
-                                <form role="form">
-                                    <input type="text" class="search-form" autocomplete="off" placeholder="Search">
-                                    <i class="fa fa-search"></i>
-                                </form>
-                           </div>
-                       </div>
-                    </div>
-                </div>
-            </div><!--/.container-->
-        </div><!--/.top-bar-->
-
-        <nav class="navbar navbar-inverse" data-spy="affix" data-offset-top="48" role="banner">
+    
+<header>
+    <nav class="navbar navbar-inverse" data-spy="affix" data-offset-top="48" role="banner">
             <div class="container">
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -69,193 +48,166 @@
                     <a class="navbar-brand" href="../index.html"><img src="../assets/images/logo.png" alt="logo">
                     </a>
                 </div>
-
-                <div class="collapse navbar-collapse navbar-right">
-                    <ul class="nav navbar-nav">
-                        <li><a href="../index.html">Trang chủ</a>
-                        <li><a href="gui-mail.html">Gửi mail</a>
-                        </li>
-                        <li class="dropdown" >
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Quản lý <i class="fa fa-angle-down"></i></a>
-                            <ul class="dropdown-menu">
-                               <li ><a href="quan-tri-noi-dung_trangchu.html">Trang chủ</a>
-                                </li>
-                                <li ><a href="quan-tri-noi-dung_gioithieu.html">Giới thiệu</a>
-                                </li>
-                                <li ><a href="quan-tri-noi-dung_tintucsukien_capnhat.html">Tin tức- sự kiện</a>
-                                </li> 
-                                <li class="active" ><a href="quan-tri-noi-dung_logo.html">Cập nhật thông tin</a>
-                                </li>
-                            </ul>
-                        </li>
-                        <li><a href="thong tin tai khoan.html">Thông tin tài khoản</a> </li>
-                        <li><a href="dang-nhap.html">Đăng xuất</a></li>
-                        </li>
-                    </ul>
                 </div>
-            </div>
             <!--/.container-->
         </nav>
         <!--/nav-->
 </header>
-    <section id="blog" class="container">
-        <div class="center">
-             <h2 class="panel-title">Cập nhật tin tức- sự kiện</h2><hr>
-        </div>
-                          <!-- Standar Form -->
-                    <form id="main-contact-form" method="post" > 
-                    <div class="row">
-                        
-                        <div class="col-md-4"> 
-                            <div class="form-group">
-                             <p><strong>Thay đổi ảnh</strong></p>
-                            <img src="../assets/images/blog/blog2.jpg" class="img-thumbnail"> 
-                            <input type="file" name="files[]" id="js-upload-files" multiple>
-                            </div> 
-                        </div>
-                        <div class="col-md-8">
-                                <div>
-                                    <label>Tiêu để</label>
-                                    <input type="text" id="tieude" name="name" class="form-control" required="required" placeholder="Địa chỉ">
-                                </div>
-                                 <div class="form-group">
-                                    <label>Mô tả</label>
-                                    <input type="text" name="name" class="form-control" required="required" placeholder="Mô tả">
-                                </div>
-                                 <div class="form-group">
-                                    <label>Nội dung</label>
-                                    <input type="email" name="name" class="form-control" required="required" placeholder="Số điện thoại">
-                                </div>  
-                                    <div class="form-group">
-                                    <label>Link</label>
-                                    <input type="link" id="tieude" name="name" class="form-control" placeholder="Link">
-                                </div>
-                        </div>
-                        </div> 
-                         
-                        <button type="button" id="btn" class="btn btn-dm btn-danger" data-toggle="modal" data-target="#myModal">Cập nhật</button>
+ <!-- Dashboard -->
+    <div class="container-fluid">
+         <div class="col-sm-2">
+             <div class="row">
+                <div class="dropdown user-pro-body">
+                         <div><img src="../assets/images/man4.jpg" alt="user-img" class="img-circle"></div> <a href="#" class="dropdown-toggle u-dropdown" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Nguyễn Hoàng Chương <span class="caret"></span></a>
+                        <ul class="dropdown-menu animated flipInY">
+                            <li><a href="quan-tri-noi-dung-thongtintaikhoan.html"><i class="ti-user"></i>Thông tin tài khoản</a></li>
+                            <li><a href="#"><i class="ti-email"></i>My Inbox</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="dang-nhap.html"> Logout</a></li>
+                        </ul>
+                </div>
+               <ul class="nav" role="navigation">
+                  <li class="dropdown"> <a href="#" id="drop2" role="button" class="dropdown-toggle" data-toggle="dropdown">Khóa học<b class="caret"></b></a>
 
-                                  <!-- Modal -->
-                                  <div class="modal fade" id="myModal" role="dialog">
-                                    <div class="modal-dialog">
-                                    
-                                      <!-- Modal content-->
-                                      <div class="modal-content">
-                                        <div class="modal-header">
-                                          <button type="button" class="close" data-dismiss="modal">&times;</button>
-                                          <h4 class="modal-title">Cập nhật</h4>
-                                        </div>
-                                        <div class="modal-body">
-                                          <p>Bạn chắc chắn muốn thay thổi?</p>
-                                        </div>
-                                        <div class="modal-footer">
-                                          <button type="button" class="btn btn-info" data-dismiss="modal">OK</button>
-                                          <button type="button" class="btn btn-md" data-dismiss="modal">Close</button>
-                                        </div>
-                                      </div>
-                                      
-                                    </div>
-                                  </div>
-                    </div>
-        </div> 
-    </section><!--/#blog-->
+                    <ul
+                    class="dropdown-menu" role="menu" aria-labelledby="drop2">
+                      <li><a tabindex="-1" href="quan-tri-noi-dung-khoahoc-list.html">Danh sách khóa học</a>
+
+                      </li>
+                      <li><a tabindex="-1" href="quan-tri-noi-dung-khoahoc-them.html">Thêm</a> 
+                      </li> 
+                      </ul>
+                  </li>
+                  <li class="dropdown"> <a href="#" id="drop3" role="button" class="dropdown-toggle" data-toggle="dropdown">Chương trình đào tạo<b class="caret"></b></a> 
+                    <ul
+                    class="dropdown-menu" role="menu" aria-labelledby="drop2">
+                      <li><a tabindex="-1" href="quan-tri-noi-dung-ctdt-list.html">Danh sách chương trình đào tạo</a> </li>
+                      <li><a tabindex="-1" href="quan-tri-noi-dung-ctdt-them.html">Thêm </a> 
+                      </li> 
+                      </ul>
+                  </li>
+                  <li class="dropdown"> <a href="#" id="drop4" role="button" class="dropdown-toggle" data-toggle="dropdown">Tin tức-sự kiện<b class="caret"></b></a> 
+                    <ul
+                    class="dropdown-menu" role="menu" aria-labelledby="drop2">
+                      <li><a tabindex="-1" href="quan-tri-noi-dung-tintuc-sukien-list.html">Danh sách Tin tức- Sự kiện</a> 
+                      </li>
+                      <li><a tabindex="-1" href="quan-tri-noi-dung-tintuc-sukien-them.html">Thêm </a> 
+                      </li> 
+                      </ul>
+                  </li>
+                   <li class="dropdown"> <a href="#" id="drop4" role="button" class="dropdown-toggle" data-toggle="dropdown">Thông báo<b class="caret"></b></a> 
+                    <ul
+                    class="dropdown-menu" role="menu" aria-labelledby="drop2">
+                      <li><a tabindex="-1" href="quan-tri-noi-dung-thongbao-list.html">Danh sách thông báo</a> 
+                      </li>
+                      <li><a tabindex="-1" href="#">Thêm </a> 
+                      </li> 
+                      </ul>
+                  </li>
+                  <li class="dropdown"> <a href="#" id="drop4" role="button" class="dropdown-toggle" data-toggle="dropdown">Giảng viên<b class="caret"></b></a> 
+                    <ul
+                    class="dropdown-menu" role="menu" aria-labelledby="drop2">
+                      <li><a tabindex="-1" href="quan-tri-noi-dung-giangvien-list.html">Danh sách  giảng viên</a> 
+                      </li>
+                      <li><a tabindex="-1" href="quan-tri-noi-dung-giangvien-them.html">Thêm</a> 
+                      </li> 
+                      </ul>
+                  </li> 
+                    <li><a tabindex="-1" href="quan-tri-noi-dung_logo.html">Thông tin trung tâm</a> 
+                      </li>   
+                  </ul>
+        </div>
+    </div>
+    <div class="col-sm-10">
     <br>
-   <section id="bottom">
-        <div class="container wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
-            <div class="row">
-                <div class="col-md-3 col-sm-6">
-                    <div class="widget">
-                        <h3>Company</h3>
-                        <ul>
-                            <li><a href="#">About us</a></li>
-                            <li><a href="#">We are hiring</a></li>
-                            <li><a href="#">Meet the team</a></li>
-                            <li><a href="#">Copyright</a></li>
-                            <li><a href="#">Terms of use</a></li>
-                            <li><a href="#">Privacy policy</a></li>
-                            <li><a href="#">Contact us</a></li>
-                        </ul>
-                    </div>    
-                </div><!--/.col-md-3-->
+    <section id="blog" class="container"> 
+             <h2 class="panel-title">Cập nhật tin tức- sự kiện</h2><hr> 
+                          <!-- Standar Form -->
+                   
+                    <ul>
+                        <li>
+                            <div class="form-group">
+                             <legend>Thay đổi ảnh</legend> 
+                            <img src="../assets/images/blog/blog2.jpg" class="img-thumbnail">  
+                            </div>  
+                            <form id="upload" method="POST" enctype="multipart/form-data">
+                                    <fieldset>  
+                                    <input id="MAX_FILE_SIZE" name="MAX_FILE_SIZE" value="300000" type="hidden">
 
-                <div class="col-md-3 col-sm-6">
-                    <div class="widget">
-                        <h3>Support</h3>
-                        <ul>
-                            <li><a href="#">Faq</a></li>
-                            <li><a href="#">Blog</a></li>
-                            <li><a href="#">Forum</a></li>
-                            <li><a href="#">Documentation</a></li>
-                            <li><a href="#">Refund policy</a></li>
-                            <li><a href="#">Ticket system</a></li>
-                            <li><a href="#">Billing system</a></li>
-                        </ul>
-                    </div>    
-                </div><!--/.col-md-3-->
+                                    <div>
+                                        <h3>Files to upload:</h3>
+                                        <div class="upload-boder">
+                                        <div id="yui_3_15_0_2_1476464778713_304" class="filemanager-container">
+                                        <input id="fileselect" name="fileselect[]" multiple="multiple" type="file"><br>
+                                        <div class="fm-empty-container"> 
+                                            <div id="filedrag" style="display: block;">You can drag and drop files here to add them.
+                                            <div class="dndupload-arrow"></div>
+                                            </div>
+                                        </div>
+                                        </div>
+                                        </div>
+                                    </div>
 
-                <div class="col-md-3 col-sm-6">
-                    <div class="widget">
-                        <h3>Developers</h3>
-                        <ul>
-                            <li><a href="#">Web Development</a></li>
-                            <li><a href="#">SEO Marketing</a></li>
-                            <li><a href="#">Theme</a></li>
-                            <li><a href="#">Development</a></li>
-                            <li><a href="#">Email Marketing</a></li>
-                            <li><a href="#">Plugin Development</a></li>
-                            <li><a href="#">Article Writing</a></li>
-                        </ul>
-                    </div>    
-                </div><!--/.col-md-3-->
+                                    <div id="submitbutton" style="display: none;">
+                                        <button type="submit">Upload Files</button>
+                                    </div>
 
-                <div class="col-md-3 col-sm-6">
-                    <div class="widget">
-                        <h3>Our Partners</h3>
-                        <ul>
-                            <li><a href="#">Adipisicing Elit</a></li>
-                            <li><a href="#">Eiusmod</a></li>
-                            <li><a href="#">Tempor</a></li>
-                            <li><a href="#">Veniam</a></li>
-                            <li><a href="#">Exercitation</a></li>
-                            <li><a href="#">Ullamco</a></li>
-                            <li><a href="#">Laboris</a></li>
-                        </ul>
-                    </div>    
-                </div><!--/.col-md-3-->
-            </div>
+                                    </fieldset>  
+                                </form>  
+                                <div id="messages">
+                                    <p>Status Messages</p>
+                                </div>
+                        </li>
+                        <li>
+                        <legend>Thông tin:</legend>
+                             <form class="" action="" method="POST" role="form">
+                                <div class="form-horizontal">
+                                    <label class="fieldinput col-sm-2 control-label">Tiêu đề
+                                    <sup style="color: rgb(255, 0, 0);">*</sup></label>
+                                    <div class="col-sm-10">
+                                    <input type="text"  class="form-control" id="" value="" placeholder="Tiêu đề" required="" autofocus="">
+                                    </div>
+                                </div><br>
+                                 <div class="form-horizontal">
+                                    <label class="fieldinput col-sm-2 control-label">Liên kết
+                                    <sup style="color: rgb(255, 0, 0);">*</sup>
+                                    </label>
+                                    <div class="col-sm-10">
+                                    <input type="link"  class="form-control"  id="" value="" placeholder="Liên kết trang" required>
+                                    </div>
+                                </div><br>
+                                <div class="form-horizontal">
+                                    <label class="fieldinput col-sm-2 control-label">Mô tả
+                                    <sup style="color: rgb(255, 0, 0);">*</sup>
+                                    </label>
+                                    <div class="col-sm-10">
+                                    <input type="text"  class="form-control"  id="" value="" placeholder="Mô tả" required>
+                                    </div>
+                                </div><br>
+                                <div class="form-horizontal">
+                                    <label class="fieldinput col-sm-2 control-label">Nội dung
+                                    <sup style="color: rgb(255, 0, 0);">*</sup>
+                                    </label>
+                                    <div class="col-sm-10">
+                                    <textarea type="text" name="noidung"  class="form-control"  cols="50" rows="6" class="form-control" id="" placeholder="Noi dung" style="resize: none;" required > </textarea>
+                                    </div>
+                                </div><br>
+                                <button class="btn btn-lg btn-primary btn-block" type="submit">Cập nhât</button> 
+                            </form> 
+                        </li>
+                    </ul> 
+                                 
+    </section><!--/#blog--> 
+    <br>
         </div>
-    </section><!--/#bottom-->
-
-    <footer id="footer" class="midnight-blue">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-6">
-                    &copy; 2016 Edit by <a target="_blank" href="http://chuongnh.pe.hu/" title="Java Web Development">Nguyen Hoang Chuong</a>.
-                </div>
-                <div class="col-sm-6">
-                    <ul class="pull-right">
-                        <li><a href="#">Trang chủ</a>
-                        </li>
-                        <li><a href="#">Giới thiệu</a>
-                        </li>
-                        <li><a href="#">Tin tức</a>
-                        </li>
-                        <li><a href="#">Liên hệ</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </footer><!--/#footer-->
-
-    
     <script src="../assets/js/jquery.js"></script>
     <script src="../assets/js/bootstrap.min.js"></script>
     <script src="../assets/js/jquery.prettyPhoto.js"></script>
     <script src="../assets/js/jquery.isotope.min.js"></script>
     <script src="../assets/js/main.js"></script>
     <script src="../assets/js/wow.min.js"></script> 
-    <script src="../js/custom.js"></script>
+    <script src="../assets/js/custom.js"></script>
+    <script src="../assets/js/filedrag.js"></script>
    <!--  <script type="text/javascript">
     function Check(argument) {
        // body...

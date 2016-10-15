@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -118,25 +119,17 @@
         </div>
     </div>
     <div class="col-sm-10">
-    <section iclass="blog" class="container">  
-        <div class="container">
-         <h2>Cập nhật Slider trang chủ</h2><hr> 
-            <div class="center wow fadeInDown animated" style="visibility: visible; animation-name: fadeInDown;"> 
-               
-             <div class="row">
-                <div class="col-xs-12 col-sm-6"> 
-                    <img class="img-responsive" src="../assets/images/slider_one.jpg" alt="">
-                    <input type="file" name="files[]" id="js-upload-files" multiple>
-                </div>
-                <div class="col-xs-12 col-sm-6"> 
-                    <img class="img-responsive" src="../assets/images/slider_one.jpg" alt="">  
-                    <input type="file" name="files[]" id="js-upload-files" multiple>
-                </div>
-            </div>
-        </div><br>
-        <div><label for="">Thêm hình ảnh</label> 
-        <form id="upload" method="POST" enctype="multipart/form-data">
-            <fieldset>  
+    <br>
+    <section id="blog" class="container"> 
+             <h2 class="panel-title">Thêm tin tức- sự kiện</h2><hr> 
+                          <!-- Standar Form -->
+                   
+                    <ul>
+                        <li> 
+                             <legend>Thêm hình ảnh</legend> 
+                            </div>  
+                            <form id="upload" method="POST" enctype="multipart/form-data">
+                                    <fieldset>  
                                     <input id="MAX_FILE_SIZE" name="MAX_FILE_SIZE" value="300000" type="hidden">
 
                                     <div>
@@ -157,36 +150,53 @@
                                         <button type="submit">Upload Files</button>
                                     </div>
 
-                                    </fieldset>                          
-        </form>  
-             <div id="messages">
-                 <p>Status Messages</p>
-                 </div>
-                 <br>
-                 <button type="submit" id="btn" class="btn btn-dm btn-danger" data-toggle="modal" data-target="#myModal">Cập nhật</button>  
-
-                     <!-- Modal -->
-                    <div class="modal fade" id="myModal" role="dialog">
-                    <div class="modal-dialog">
-                                    
-                        <!-- Modal content-->
-                        <div class="modal-content">
-                        <div class="modal-header">
-                        <button type="button" class="close" data-dismiss="modal">&times;</button>
-                        <h4 class="modal-title">Cập nhật</h4>
-                        </div>
-                        <div class="modal-body">
-                           <p>Bạn chắc chắn muốn thay thổi?</p>
-                         </div>
-                             <div class="modal-footer">
-                                 <button type="button" class="btn btn-info" data-dismiss="modal">OK</button>
-                                 <button type="button" class="btn btn-md" data-dismiss="modal">Close</button>
-                            </div>
-                        </div>
-                                      
-                    </div>
-                    </div>   <br><br>
-        </div>
+                                    </fieldset>  
+                                </form>  
+                                <div id="messages">
+                                    <p>Status Messages</p>
+                                </div>
+                        </li>
+                        <li>
+                        <legend>Thông tin:</legend>
+                             <form class="" action="" method="POST" role="form">
+                                <div class="form-horizontal">
+                                    <label class="fieldinput col-sm-2 control-label">Tiêu đề
+                                    <sup style="color: rgb(255, 0, 0);">*</sup></label>
+                                    <div class="col-sm-10">
+                                    <input type="text"  class="form-control" id="" value="" placeholder="Tiêu đề" required="" autofocus="">
+                                    </div>
+                                </div><br>
+                                 <div class="form-horizontal">
+                                    <label class="fieldinput col-sm-2 control-label">Liên kết
+                                    <sup style="color: rgb(255, 0, 0);">*</sup>
+                                    </label>
+                                    <div class="col-sm-10">
+                                    <input type="link"  class="form-control"  id="" value="" placeholder="Liên kết trang" required>
+                                    </div>
+                                </div><br>
+                                <div class="form-horizontal">
+                                    <label class="fieldinput col-sm-2 control-label">Mô tả
+                                    <sup style="color: rgb(255, 0, 0);">*</sup>
+                                    </label>
+                                    <div class="col-sm-10">
+                                    <input type="text"  class="form-control"  id="" value="" placeholder="Mô tả" required>
+                                    </div>
+                                </div><br>
+                                <div class="form-horizontal">
+                                    <label class="fieldinput col-sm-2 control-label">Nội dung
+                                    <sup style="color: rgb(255, 0, 0);">*</sup>
+                                    </label>
+                                    <div class="col-sm-10">
+                                    <textarea type="text" name="noidung"  class="form-control"  cols="50" rows="6" class="form-control" id="" placeholder="Noi dung" style="resize: none;" required > </textarea>
+                                    </div>
+                                </div><br>
+                                <button class="btn btn-lg btn-primary btn-block" type="submit">Cập nhât</button> 
+                            </form> 
+                        </li>
+                    </ul> 
+                                 
+    </section><!--/#blog--> 
+    <br>
         </div>
     <script src="../assets/js/jquery.js"></script>
     <script src="../assets/js/bootstrap.min.js"></script>

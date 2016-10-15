@@ -19,6 +19,7 @@
     <link href="../assets/css/main.css" rel="stylesheet">
     <link href="../assets/css/responsive.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="../assets/css/custom.css">
+    <link rel="stylesheet" type="text/css" href="../assets/css/style-admin.css">
 
     <!--[if lt IE 9]>
     <script src="js/html5shiv.js"></script>
@@ -118,76 +119,107 @@
         </div>
     </div>
     <div class="col-sm-10">
-    <section iclass="blog" class="container">  
-        <div class="container">
-         <h2>Cập nhật Slider trang chủ</h2><hr> 
-            <div class="center wow fadeInDown animated" style="visibility: visible; animation-name: fadeInDown;"> 
-               
-             <div class="row">
-                <div class="col-xs-12 col-sm-6"> 
-                    <img class="img-responsive" src="../assets/images/slider_one.jpg" alt="">
-                    <input type="file" name="files[]" id="js-upload-files" multiple>
-                </div>
-                <div class="col-xs-12 col-sm-6"> 
-                    <img class="img-responsive" src="../assets/images/slider_one.jpg" alt="">  
-                    <input type="file" name="files[]" id="js-upload-files" multiple>
-                </div>
-            </div>
-        </div><br>
-        <div><label for="">Thêm hình ảnh</label> 
-        <form id="upload" method="POST" enctype="multipart/form-data">
-            <fieldset>  
-                                    <input id="MAX_FILE_SIZE" name="MAX_FILE_SIZE" value="300000" type="hidden">
+ 
+  <div id="admin-content">
+    <h2 class="admin-title">Quản lý tin tức- Sự kiện</h2>
 
-                                    <div>
-                                        <h3>Files to upload:</h3>
-                                        <div class="upload-boder">
-                                        <div id="yui_3_15_0_2_1476464778713_304" class="filemanager-container">
-                                        <input id="fileselect" name="fileselect[]" multiple="multiple" type="file"><br>
-                                        <div class="fm-empty-container"> 
-                                            <div id="filedrag" style="display: block;">You can drag and drop files here to add them.
-                                            <div class="dndupload-arrow"></div>
-                                            </div>
-                                        </div>
-                                        </div>
-                                        </div>
-                                    </div>
+    <div class="main-content-wrap">
+      <div class="main-content">
 
-                                    <div id="submitbutton" style="display: none;">
-                                        <button type="submit">Upload Files</button>
-                                    </div>
+        <div class="list-wrap">
+          <h3 class="form-title">Danh sách chương tin tức- Sự kiện</h3>
+          <form>
+          <table class="list-table">
+            <tr>
+              <th>Thuộc tính 1</th>
+              <th>Thuộc tính 2</th>
+              <th>Thuộc tính 3</th>
+              <th>Thuộc tính 4</th>
+              <th>Thuộc tính 5</th>
+              <th>Thuộc tính 6</th>
+              <th></th>
+              <th></th>
+            </tr>
+            <tr>
+              <td class="cell-center">Giá trị 1.1</td>
+              <td>Giá trị 1.2</td>
+              <td>Giá trị 1.3</td>
+              <td>Giá trị 1.4</td>
+              <td>Giá trị 1.5</td>
+              <td>Giá trị 1.6</td>
+              <td class="edit-cell"><a class="btn-edit" href="quan-tri-noi-dung_tintucsukien.html">Sửa</a></td>
+              <td class="delete-cell"><a class="btn-del" href="#">Xóa</a></td>
+            </tr>
+            <tr>
+              <td class="cell-center">Giá trị 2.1</td>
+              <td>Giá trị 2.2</td>
+              <td>Giá trị 2.3</td>
+              <td>Giá trị 2.4</td>
+              <td>Giá trị 2.5</td>
+              <td>Giá trị 2.6</td>
+              <td class="edit-cell"><a class="btn-edit" href="#">Sửa</a></td>
+              <td class="delete-cell"><a class="btn-del" href="#">Xóa</a></td>
+            </tr>
+            <tr>
+              <td class="cell-center">Giá trị 3.1</td>
+              <td>Giá trị 3.2</td>
+              <td>Giá trị 3.3</td>
+              <td>Giá trị 3.4</td>
+              <td>Giá trị 3.5</td>
+              <td>Giá trị 3.6</td>
+              <td class="edit-cell"><a class="btn-edit" href="#">Sửa</a></td>
+              <td class="delete-cell"><a class="btn-del" href="#">Xóa</a></td>
+            </tr>
+            <tr>
+              <td class="cell-center">Giá trị 4.1</td>
+              <td>Giá trị 4.2</td>
+              <td>Giá trị 4.3</td>
+              <td>Giá trị 4.4</td>
+              <td>Giá trị 4.5</td>
+              <td>Giá trị 4.6</td>
+              <td class="edit-cell"><a class="btn-edit" href="#">Sửa</a></td>
+              <td class="delete-cell"><a class="btn-del" href="#">Xóa</a></td>
+            </tr>
+            <tr>
+              <td class="cell-center">Giá trị 5.1</td>
+              <td>Giá trị 5.2</td>
+              <td>Giá trị 5.3</td>
+              <td>Giá trị 5.4</td>
+              <td>Giá trị 5.5</td>
+              <td>Giá trị 5.6</td>
+              <td class="edit-cell"><a class="btn-edit" href="#">Sửa</a></td>
+              <td class="delete-cell"><a class="btn-del" href="#">Xóa</a></td>
+            </tr>
+            <tr>
+              <td class="cell-center">Giá trị 6.1</td>
+              <td>Giá trị 6.2</td>
+              <td>Giá trị 6.3</td>
+              <td>Giá trị 6.4</td>
+              <td>Giá trị 6.5</td>
+              <td>Giá trị 6.6</td>
+              <td class="edit-cell"><a class="btn-edit" href="#">Sửa</a></td>
+              <td class="delete-cell"><a class="btn-del" href="#">Xóa</a></td>
+            </tr>
+            <tr>
+              <td class="cell-center">Giá trị 7.1</td>
+              <td>Giá trị 7.2</td>
+              <td>Giá trị 7.3</td>
+              <td>Giá trị 7.4</td>
+              <td>Giá trị 7.5</td>
+              <td>Giá trị 7.6</td>
+              <td class="edit-cell"><a class="btn-edit" href="#">Sửa</a></td>
+              <td class="delete-cell"><a class="btn-del" href="#">Xóa</a></td>
+            </tr>
+          </table>
+          </form>
+        </div><!--end .list-wrap-->
 
-                                    </fieldset>                          
-        </form>  
-             <div id="messages">
-                 <p>Status Messages</p>
-                 </div>
-                 <br>
-                 <button type="submit" id="btn" class="btn btn-dm btn-danger" data-toggle="modal" data-target="#myModal">Cập nhật</button>  
 
-                     <!-- Modal -->
-                    <div class="modal fade" id="myModal" role="dialog">
-                    <div class="modal-dialog">
-                                    
-                        <!-- Modal content-->
-                        <div class="modal-content">
-                        <div class="modal-header">
-                        <button type="button" class="close" data-dismiss="modal">&times;</button>
-                        <h4 class="modal-title">Cập nhật</h4>
-                        </div>
-                        <div class="modal-body">
-                           <p>Bạn chắc chắn muốn thay thổi?</p>
-                         </div>
-                             <div class="modal-footer">
-                                 <button type="button" class="btn btn-info" data-dismiss="modal">OK</button>
-                                 <button type="button" class="btn btn-md" data-dismiss="modal">Close</button>
-                            </div>
-                        </div>
-                                      
-                    </div>
-                    </div>   <br><br>
-        </div>
-        </div>
+      </div><!--end .main-content-->
+    </div><!--end .main-content-wrap-->
+  </div><!--end #admin-content-->
+    <br>
+     </div>
     <script src="../assets/js/jquery.js"></script>
     <script src="../assets/js/bootstrap.min.js"></script>
     <script src="../assets/js/jquery.prettyPhoto.js"></script>
