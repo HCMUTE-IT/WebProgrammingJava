@@ -1,0 +1,45 @@
+.add-new-table td{padding: 15px 10px; border-top: 1px dashed #dee5e7; border-bottom: 1px dashed #dee5e7;}
+.add-new-table td label{display: inline-block; margin-left: 25px;}
+
+#container{width: 100%; display: table; box-sizing:border-box; height: auto; padding-top: 50px;}
+
+.list-table{width: 100%;  border-collapse: collapse;}
+.list-table td, .list-table th{padding: 15px 10px; border: 1px solid #dee5e7;}
+.list-table td:first-child, .list-table th:first-child{border-left: none;}
+.list-table td:last-child, .list-table th:last-child{border-right: none;}
+.list-table th{color: #666; background: #F6F8F8;}
+.list-table tr:nth-child(2n+1){background: #F6F8F8;}
+.list-table tr:hover{background: #F0F3F4;}
+.btn-del, .btn-edit{display: block; color: #1A91B1;}
+.btn-del{color: #EB5F60; }
+.btn-del:hover, .btn-edit:hover{text-decoration: underline;}
+.edit-cell, .delete-cell{width: 30px; text-align: center;}
+ 
+.admin-title{display: block; line-height: 70px; background: #F6F8F8; text-indent: 25px; border-bottom: 1px solid #dee5e7;
+  text-transform: uppercase; font-size: 20px; color: #666; font-weight: normal; margin-top: 50px;}
+#admin-content{ display: table-cell; width: 100%; box-sizing:border-box; background: #F0F3F4; vertical-align: top;}
+.cell-center{text-align: center;} 
+.nav ul em{color: #999; font-size: 11px; margin-right: 10px;}
+#header{width: 100%; box-sizing:border-box; display: table; height: 50px; background: #fff; position: fixed; z-index: 500;}
+#logo{width: 250px; height: 100%; display: table-cell; float: left; box-sizing:border-box; background: #1F1F1F;} 
+#user-bar{width: 100%; height: 100%; display: table-cell; box-shadow: -1px 0 3px #999;}
+#user-option{float: right; margin-right: 50px; position: relative;}
+#user-info{display: block; padding: 0 30px; background: #0F2F40;}
+#user-info img{width: 40px; height: 40px; margin-top: 5px; border-radius: 50%; margin-right: 10px;}
+#user-info span{display: inline-block; line-height: 50px; color: #fff; vertical-align: top;}
+#user-option ul{display: none; position: absolute; top: 100%; right: 0; width: 200px; background: #fff;
+	border-top: 5px solid #fff;  border-bottom: 5px solid #fff; box-shadow: 2px 2px 0 rgba(0, 0, 0, 0.1);}
+#user-option ul li{width: 100%; list-style: none;}
+#user-option ul li a{display: block; line-height: 40px; color: #666; text-indent: 20px;}
+#user-option ul li a:hover{background: #F6F6F6; color: #1A91B1;}
+#user-option ul:before{content: ""; width: 0; height: 0; position: absolute;top: -18px; right: 20px; border: 7px solid transparent;
+	border-bottom: 7px solid #fff; z-index: 100;}
+#user-option:hover ul{display: block;}
+ 
+#menu > li > a{text-transform: uppercase;}  
+#sidebar-menu{  min-height: 600px; width: 250px; background: #222;}
+  
+#logo{width: 250px; height: 100%; display: table-cell; float: left; box-sizing:border-box; background: #1F1F1F;}
+#logo a{display: block; font-size: 22px; line-height: 50px; text-align: center; color: #1A91B1; transition:0.3s;}
+#logo a:hover{color: #EB5F60;}
+ 

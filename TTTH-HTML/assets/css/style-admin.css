@@ -1,0 +1,16 @@
+.add-new-table td{padding: 15px 10px; border-top: 1px dashed #dee5e7; border-bottom: 1px dashed #dee5e7;}
+.add-new-table td label{display: inline-block; margin-left: 25px;}
+
+.list-table{width: 100%;  border-collapse: collapse;}
+.list-table td, .list-table th{padding: 15px 10px; border: 1px solid #dee5e7;}
+.list-table td:first-child, .list-table th:first-child{border-left: none;}
+.list-table td:last-child, .list-table th:last-child{border-right: none;}
+.list-table th{color: #666; background: #F6F8F8;}
+.list-table tr:nth-child(2n+1){background: #F6F8F8;}
+.list-table tr:hover{background: #F0F3F4;}
+.btn-del, .btn-edit{display: block; color: #1A91B1;}
+.btn-del{color: #EB5F60; }
+.btn-del:hover, .btn-edit:hover{text-decoration: underline;}
+.edit-cell, .delete-cell{width: 30px; text-align: center;}
+
+.cell-center{text-align: center;}
