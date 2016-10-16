@@ -24,6 +24,7 @@ tag "tên ai đó"
    git push orgin tenaido
    
    
+<<<<<<< HEAD
 
    
    
@@ -33,3 +34,8 @@ tag "tên ai đó"
 
 git clone  https://github.com/angular/quickstart  my-proj
 cd my-proj
+=======
+   
+
+
+>>>>>>> origin/master
