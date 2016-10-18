@@ -101,25 +101,34 @@
             </div> 
             <div class="row contact-wrap"> 
                 <div class="status alert alert-success" style="display: none"></div>
-                <form id="main-contact-form" class="contact-form" name="contact-form" method="post" action="sendemail.php">
-                    <div class="col-sm-6 col-sm-offset-3">
-                        <div class="form-group">
-                            <label>Người nhận *</label>
-                            <input type="email" name="email" class="form-control" required="required">
-                        </div>
-                        <div class="form-group">
-                            <label>Chủ đề</label>
-                            <input type="text" name="name" class="form-control" required="required">
-                        </div>  
-                        <div class="form-group">
-                            <label>Nội dung tin nhắn *</label>
-                            <textarea name="message" id="message" required="required" class="form-control" rows="8"></textarea>
-                        </div>                        
-                        <div class="form-group pull-right">
-                            <button type="submit" name="submit" class="btn btn-primary btn-lg" required="required">Gửi email</button>
-                        </div>          
-                    </div>
-                </form> 
+                 <form  class="form-inline" id="main-contact-form" class="contact-form" name="contact-form" method="post" action="sendemail.php">
+                                <div>  
+                                    <label class="col-sm-3 control-label">Tiêu đề
+                                    <sup style="color: rgb(255, 0, 0);">*</sup></label>
+                                    <div class="col-sm-9">
+                                    <input type="text" class="form-control required" size="80" side data-trigger="manual" placeholder="Địa chỉ email" required="" 
+                                     autofocus="">
+                                    </div>
+                                </div><br>
+                                 <div>
+                                    <label class="col-sm-3 control-label">Người nhận
+                                    <sup style="color: rgb(255, 0, 0);">*</sup>
+                                    </label>
+                                    <div class="col-sm-9">
+                                    <input type="email" class="form-control"  id="" size="80"  class="form-control required email" data-trigger="manual" 
+                                    placeholder="Địa chỉ email" data-content="Bạn cần phải nhập vào trường này là một email" required="">
+                                    </div>
+                                </div><br> 
+                                <div>
+                                     <label class="col-sm-3 control-label">Nội dung
+                                    <sup style="color: rgb(255, 0, 0);">*</sup>
+                                    </label>
+                                    <div class="col-sm-9">
+                                    <textarea type="text" name="noidung"  class="form-control required"  cols="60" rows="6" class="form-control" id="" placeholder="Noi dung" style="resize: none;"> </textarea>
+                                    </div>
+                                </div><br>
+                                <button class="col-md-offset-3 btn btn-primary col-sm-offset-3" type="submit">Gửi</button>                                 
+                            </form>  
             </div><!--/.row-->
         </div><!--/.container-->
     </section><!--/#contact-page-->

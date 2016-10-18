@@ -12,23 +12,23 @@
 
     <!-- core CSS -->
 
-    <link href="<c:url value="assets/css/bootstrap.css"/>" rel="stylesheet"/>
-    <link href="<c:url value="assets/css/bootstrap.min.css"/>" rel="stylesheet"/>
-    <link href="<c:url value="assets/css/font-awesome.min.css"/>" rel="stylesheet"/>
-    <link href="<c:url value="assets/css/animate.min.css"/>" rel="stylesheet"/>
-    <link href="<c:url value="assets/css/prettyPhoto.css"/>" rel="stylesheet"/>
-    <link href="<c:url value="assets/css/main.css"/>" rel="stylesheet">
-    <link href="<c:url value="assets/css/responsive.css"/>" rel="stylesheet"/>
-    <link rel="stylesheet" type="text/css" href="<c:url value="assets/css/custom.css"/>"/>
+    <link href="<c:url value="../assets/css/bootstrap.css"/>" rel="stylesheet"/>
+    <link href="<c:url value="../assets/css/bootstrap.min.css"/>" rel="stylesheet"/>
+    <link href="<c:url value="../assets/css/font-awesome.min.css"/>" rel="stylesheet"/>
+    <link href="<c:url value="../assets/css/animate.min.css"/>" rel="stylesheet"/>
+    <link href="<c:url value="../assets/css/prettyPhoto.css"/>" rel="stylesheet"/>
+    <link href="<c:url value="../assets/css/main.css"/>" rel="stylesheet">
+    <link href="<c:url value="../assets/css/responsive.css"/>" rel="stylesheet"/>
+    <link rel="stylesheet" type="text/css" href="<c:url value="../assets/css/custom.css"/>"/>
     <!--[if lt IE 9]>
     <script src="js/html5shiv.js"></script>
     <script src="js/respond.min.js"></script>
     <![endif]-->
     <link rel="shortcut icon" href="<c:url value="../assets/images/ico/favicon.ico"/>"/>
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="<c:url value="assets/images/ico/apple-touch-icon-144-precomposed.png"/>"/>
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="<c:url value="assets/images/ico/apple-touch-icon-114-precomposed.png"/>"/>
-    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="<c:url value="assets/images/ico/apple-touch-icon-72-precomposed.png"/>"/>
-    <link rel="apple-touch-icon-precomposed" href="<c:url value="assets/images/ico/apple-touch-icon-57-precomposed.png"/>"/>
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="<c:url value="../assets/images/ico/apple-touch-icon-144-precomposed.png"/>"/>
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="<c:url value="../assets/images/ico/apple-touch-icon-114-precomposed.png"/>"/>
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="<c:url value="../assets/images/ico/apple-touch-icon-72-precomposed.png"/>"/>
+    <link rel="apple-touch-icon-precomposed" href="<c:url value="../assets/images/ico/apple-touch-icon-57-precomposed.png"/>"/>
 </head>
 
 <body>
@@ -108,8 +108,7 @@
         
     </header><!--/header-->
 
-    <section id="blog" class="container">
-
+    <section id="blog" class="container"> 
         <div class="blog">
             <div class="row">
                  <div class="col-md-8">
@@ -163,21 +162,21 @@
                                     <img src="../assets/images/blog/avatar3.png" alt=""  />
                                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do </p>
                                     <div class="entry-meta small muted">
-                                        <span>By <a href="#">Alex</a></span <span>On <a href="#">Creative</a></span>
+                                        <span>By <a href="#">Alex</a></span> <span>On <a href="#">Creative</a></span>
                                     </div>
                                 </div>
                                 <div class="single_comments">
                                     <img src="../assets/images/blog/avatar3.png" alt=""  />
                                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do </p>
                                     <div class="entry-meta small muted">
-                                        <span>By <a href="#">Alex</a></span <span>On <a href="#">Creative</a></span>
+                                        <span>By <a href="#">Alex</a></span> <span>On <a href="#">Creative</a></span>
                                     </div>
                                 </div>
                                 <div class="single_comments">
                                     <img src="../assets/images/blog/avatar3.png" alt=""  />
                                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do </p>
                                     <div class="entry-meta small muted">
-                                        <span>By <a href="#">Alex</a></span <span>On <a href="#">Creative</a></span>
+                                        <span>By <a href="#">Alex</a></span> <span>On <a href="#">Creative</a></span>
                                     </div>
                                 </div>
                                 
@@ -305,14 +304,14 @@
             </div>
         </div>
     </footer><!--/#footer-->
-    <script src="<c:url value="assets/js/jquery.js"/>"></script>
-    <script src="<c:url value="assets/js/bootstrap.min.js"/>"></script>
-    <script src="<c:url value="assets/js/jquery.prettyPhoto.js"/>"></script>
-    <script src="<c:url value="assets/js/jquery.isotope.min.js"/>"></script>
-    <script src="<c:url value="assets/js/main.js"/>"></script>
-    <script src="<c:url value="assets/js/wow.min.js"/>"></script>
+    <script src="<c:url value="../assets/js/jquery.js"/>"></script>
+    <script src="<c:url value="../assets/js/bootstrap.min.js"/>"></script>
+    <script src="<c:url value="../assets/js/jquery.prettyPhoto.js"/>"></script>
+    <script src="<c:url value="../assets/js/jquery.isotope.min.js"/>"></script>
+    <script src="<c:url value="../assets/js/main.js"/>"></script>
+    <script src="<c:url value="../assets/js/wow.min.js"/>"></script>
 
-    <script src="<c:url value="assets/js/custom.js"/>"></script>
+    <script src="<c:url value="../assets/js/custom.js"/>"></script>
     <!--BACK TO TOP-->
     <a id="back-to-top" href="#" class="btn btn-primary btn-md back-to-top" role="button" title="Lên đầu trang" data-toggle="tooltip" data-placement="left"><span class="glyphicon glyphicon-chevron-up"></span></a>
 </body> 

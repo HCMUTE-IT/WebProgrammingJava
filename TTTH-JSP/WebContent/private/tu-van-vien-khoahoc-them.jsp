@@ -9,7 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
-    <title>Chi tiết khóa học | TTTH</title>
+    <title>Tư vấn viên | TTTH</title>
 
     <!-- core CSS -->
 
@@ -47,104 +47,46 @@
                 <img src="../assets/images/man3.jpg">
                 <span>Administrator</span>
             </a>
-           <ul>
-                <li><a href="quan-tri-noi-dung-thongtintaikhoan.jsp">Trang cá nhân</a></li> 
+          <ul>
+                <li><a href="tu-van-vien-thongtintaikhoan.jsp">Trang cá nhân</a></li> 
                 <li><a href="dang-nhap.jsp">Đăng xuất</a></li>
-                <li><a href="quan-tri-noi-dung_guimail.jsp">Gửi mail</a></li>
+                <li><a href="tu-van-vien-guimail.jsp">Gửi mail</a></li>
             </ul>
         </div>
     </div> 
     </div> 
-</header>
+</header> 
 <div class="row">
          <div class="col-sm-2"> 
-                <ul class="nav affix" role="navigation">
+             <ul class="nav affix" role="navigation">
                   <li><a href="quan-tri-noi-dung_guimail.jsp">Gửi email</a> </li>
-                  <li class="dropdown"> <a href="#"  role="button" class="dropdown-toggle" data-toggle="dropdown">Slider<b class="caret"></b></a>
-                    
+                  <li class="dropdown"> <a href="#"  role="button" class="dropdown-toggle" data-toggle="dropdown">Học viên<b class="caret"></b></a> 
                     <ul
                     class="dropdown-menu" role="menu">
-                      <li><a tabindex="-1" href="quan-tri-noi-dung-trangchu-list-slider.jsp"><em>1 </em>Slider trang chủ</a>
-
-                      </li>
-                      <li><a tabindex="-1" href="quan-tri-noi-dung-gioithieu-list-slider.jsp"><em>2 </em>Slider giới thiệu</a> 
+                      <li><a tabindex="-1" href="tu-van-vien-hocvien-xuatds.jsp"><em>1 </em>Xuất danh sách</a> 
                       </li> 
-                       <li role="separator" class="divider"></li>
-                      <li><a tabindex="-1" href="#"><em>3 </em>Thêm</a> 
-                      </li> 
-                      </ul>
-                  </li>
-                  <li class="dropdown"> <a href="#" role="button" class="dropdown-toggle" data-toggle="dropdown">Chương trình đào tạo<b class="caret"></b></a> 
-                    <ul
-                    class="dropdown-menu" role="menu">
-                      <li><a tabindex="-1" href="quan-tri-noi-dung-ctdt-list.jsp"><em>1 </em>Cập nhật</a> </li>
-                      <li><a tabindex="-1" href="quan-tri-noi-dung-ctdt-them.jsp"><em>2 </em>Thêm </a> 
-                      </li> 
-                      </ul>
-                  </li>
-                  <li class="dropdown"> <a href="#" role="button" class="dropdown-toggle" data-toggle="dropdown">Khóa học<b class="caret"></b></a>
-                    
-                    <ul
-                    class="dropdown-menu" role="menu">
-                      <li><a tabindex="-1" href="quan-tri-noi-dung-khoahoc-list.jsp"><em>1 </em>Cập nhật</a>
-
-                      </li>
-                      <li><a tabindex="-1" href="quan-tri-noi-dung-khoahoc-them.jsp"><em>2 </em>Thêm</a> 
-                      </li> 
-                      </ul>
-                  </li>
-                  <li class="dropdown"> <a href="#" role="button" class="dropdown-toggle" data-toggle="dropdown">Chương trình đào tạo<b class="caret"></b></a> 
-                    <ul
-                    class="dropdown-menu" role="menu">
-                      <li><a tabindex="-1" href="quan-tri-noi-dung-ctdt-list.jsp"><em>1 </em>Cập nhật</a> </li>
-                      <li><a tabindex="-1" href="quan-tri-noi-dung-ctdt-them.jsp"><em>2 </em>Thêm </a> 
-                      </li> 
-                      </ul>
-                  </li>
-                  <li class="dropdown"> <a href="#" role="button" class="dropdown-toggle" data-toggle="dropdown">Tin tức-sự kiện<b class="caret"></b></a> 
-                    <ul
-                    class="dropdown-menu" role="menu">
-                      <li><a tabindex="-1" href="quan-tri-noi-dung-tintuc-sukien-list.jsp"><em>1 </em>Cập nhật</a> 
-                      </li>
-                      <li><a tabindex="-1" href="quan-tri-noi-dung-tintuc-sukien-them.jsp"><em>2 </em>Thêm </a> 
-                      </li> 
-                      </ul>
-                  </li>
-                   <li class="dropdown"> <a href="#" role="button" class="dropdown-toggle" data-toggle="dropdown">Thông báo<b class="caret"></b></a> 
-                    <ul
-                    class="dropdown-menu" role="menu">
-                      <li><a tabindex="-1" href="quan-tri-noi-dung-thongbao-list.jsp"><em>1 </em>Cập nhậto</a> 
-                      </li>
-                      <li><a tabindex="-1" href="quan-tri-noi-dung-thongbao-them.jsp"><em>2 </em>Thêm </a> 
-                      </li> 
-                      </ul>
-                  </li>
-                  <li class="dropdown"> <a href="#" role="button" class="dropdown-toggle" data-toggle="dropdown">Giảng viên<b class="caret"></b></a> 
-                    <ul
-                    class="dropdown-menu" role="menu" >
-                      <li><a tabindex="-1" href="quan-tri-noi-dung-giangvien-list.jsp"><em>1 </em>Cập nhật</a> 
-                      </li>
-                      <li><a tabindex="-1" href="quan-tri-noi-dung-giangvien-them.jsp"><em>2 </em>Thêm</a> 
-                      </li> 
+                      <li><a tabindex="-1" href="tu-van-vien-hocvien-guimail.jsp"><em>2 </em>Gửi Email</a> 
+                      </li>  
                       </ul>
                   </li> 
-                    <li><a tabindex="-1" href="quan-tri-noi-dung_logo.jsp">Thông tin trung tâm</a> 
-                      </li> 
-                       <li><a tabindex="-1" href="quan-tri-noi-dung.jsp">Quản trị nội dung</a> 
-                      </li>   
+                  <li class="dropdown"> <a href="#"  role="button" class="dropdown-toggle" data-toggle="dropdown">Khóa học<b class="caret"></b></a> 
+                    <ul
+                    class="dropdown-menu" role="menu">
+                      <li><a tabindex="-1" href="tu-van-vien-khoahoc-quanly.jsp"><em>1 </em>Quản lý</a> 
+                      </li>
+                      <li><a tabindex="-1" href="tu-van-vien-khoahoc-them.jsp"><em>2 </em>Thêm</a> 
+                      </li>  
+                      </ul>
+                  </li>  
                   </ul>
         </div>  
-    <div class="col-sm-10"> 
-    <section  class="container mtb wow fadeInDown"> 
-             <h2 >Cập nhật thông báo</h2><hr> 
-                          <!-- Standar Form -->
-                   
-                    <ul>
-                        <li>
-                            <div class="form-group">
-                             <legend>Thay đổi ảnh</legend> 
-                            <img src="../assets/images/blog/blog2.jpg" class="img-thumbnail">  
-                            </div>  
+    <div class="col-sm-10">
+ 
+   <section  class=" mtb wow fadeInDown"> 
+             <h2>Thêm khóa học</h2><hr>  
+        <ul>
+                        <li> 
+                             <legend>Thêm file</legend>  
                             <form id="upload" method="POST" enctype="multipart/form-data">
                                     <fieldset>  
                                     <input id="MAX_FILE_SIZE" name="MAX_FILE_SIZE" value="300000" type="hidden">
@@ -174,13 +116,13 @@
                                 </div>
                         </li>
                         <li>
-                    <legend>Thông tin:</legend>
+                          <legend>Thông tin:</legend>
                                <form class="form-inline" action="" method="POST" role="form">
-                                  <div class="form-inline">
-                                      <label class="fieldinput col-sm-2 control-label">Tiêu đề
+                                  <div >
+                                      <label class="fieldinput col-sm-2 control-label">Khóa học
                                       <sup style="color: rgb(255, 0, 0);">*</sup></label>
                                       <div class="col-sm-10">
-                                      <input type="text"  class="form-control" id="" size="80" value="" placeholder="Tiêu đề" required="" autofocus="">
+                                      <input type="text"  class="form-control" id="" size="80" value="" placeholder="Tên khóa học" required="" autofocus="">
                                       </div>
                                   </div><br>
                                   <div >
@@ -191,30 +133,46 @@
                                       <input type="text"  class="form-control"  id="" size="80" value="" placeholder="Mô tả" required>
                                       </div>
                                   </div><br>
-                                   <div class="form-inline">
-                                      <label class="fieldinput col-sm-2 control-label">Liên kết
-                                      <sup style="color: rgb(255, 0, 0);">*</sup></label>
-                                      <div class="col-sm-10">
-                                      <input type="text"  class="form-control" id="" size="80" value="" placeholder="Link" required="" autofocus="">
-                                      </div>
-                                  </div><br><br>
-                                  <div>
-                                      <label class="fieldinput col-sm-2 control-label">Nội dung
+                                   <div>
+                                      <label class="fieldinput col-sm-2 control-label">Giới thiệu
                                       <sup style="color: rgb(255, 0, 0);">*</sup>
                                       </label>
                                       <div class="col-sm-10">
                                       <textarea type="text" name="noidung"  class="form-control"  cols="60" rows="6" class="form-control" id="" placeholder="Noi dung" style="resize: none;" required > </textarea>
                                       </div>
-                                  </div><br><br>
-                                  <button class="btn btn-sm btn-primary col-sm-offset-2" type="submit">Cập nhât</button> 
+                                  </div><br>
+                                  <div>
+                                     <label class="fieldinput col-sm-2 control-label">Học phí
+                                      <sup style="color: rgb(255, 0, 0);">*</sup>
+                                      </label>
+                                      <div class="col-sm-10">
+                                      <input type="text" name="ngay" size="80" class="form-control required number" id="" placeholder="" required="required"
+                                      data-trigger="manual" data-content="Bạn cần phải nhập ít nhất 4 ký tự số vào trường này">
+                                      </div>
+                                  </div><br>
+                                   <div>
+                                     <label class="fieldinput col-sm-2 control-label">Lịch học
+                                      <sup style="color: rgb(255, 0, 0);">*</sup>
+                                      </label>
+                                      <div class="col-sm-10">
+                                      <input type="text" class="form-control required" id="" placeholder="" required="required">
+                                      </div>
+                                  </div><br>
+                                   <div class="form-inline">
+                                      <label class="fieldinput col-sm-2 control-label">Khai giảng
+                                      <sup style="color: rgb(255, 0, 0);">*</sup></label>
+                                      <div class="col-sm-10">
+                                      <input type="date" name="ngay" class="form-control" id="" placeholder="" required="required">
+                                      </div>
+                                  </div><br>
+                                 
+                                  <button class="btn btn-primary col-sm-offset-2" type="submit">Cập nhât</button> 
                               </form> <br>
                           </li>
-                      </ul>          
-                                 
-    </section><!--/#blog--> 
-    <br>
-        </div>
- 
+                      </ul>     
+    </section><!--/#blog-->
+    </div> 
+
 
     <script src="<c:url value="../assets/js/jquery.js"/>"></script>
     <script src="<c:url value="../assets/js/bootstrap.min.js"/>"></script>
@@ -222,7 +180,7 @@
     <script src="<c:url value="../assets/js/jquery.isotope.min.js"/>"></script>
     <script src="<c:url value="../assets/js/main.js"/>"></script>
     <script src="<c:url value="../assets/js/wow.min.js"/>"></script>
-      <script src="<c:url value="../assets/js/filedrag.js"/>"></script>
+    <script src="<c:url value="../assets/js/filedrag.js"/>"></script>
     <script src="<c:url value="../assets/js/custom.js"/>"></script>
     <script src="<c:url value="../assets/js/validation.js"/>"></script>
     <!--BACK TO TOP-->

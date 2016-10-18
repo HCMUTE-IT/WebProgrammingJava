@@ -115,7 +115,9 @@
         </div>
     </div> 
     </header>
-    <section id="blog" class="container">
+   <div class="content-admin">
+            <div class="container">
+                <div class="center wow fadeInDown">
     <h2>Cập nhật tài khoản</h2> <hr>
         <div class="blog">    
                           <!-- Standar Form -->
@@ -154,7 +156,8 @@
                             </div>
                         </form>   
         </div>  
-         
+        </div>
+        </div>
     </section><!--/#blog-->
    
   <script src="<c:url value="../assets/js/jquery.js"/>"></script>

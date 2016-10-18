@@ -9,7 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
-    <title>Chi tiết khóa học | TTTH</title>
+    <title>Gửi email | TTTH</title>
 
     <!-- core CSS -->
 
@@ -47,10 +47,10 @@
                 <img src="../assets/images/man3.jpg">
                 <span>Administrator</span>
             </a>
-            <ul>
-                <li><a href="#">Trang cá nhân</a></li>
-                <li><a href="#">Tạm khóa</a></li>
-                <li><a href="#">Đăng xuất</a></li>
+           <ul>
+                <li><a href="quan-tri-noi-dung-thongtintaikhoan.jsp">Trang cá nhân</a></li> 
+                <li><a href="dang-nhap.jsp">Đăng xuất</a></li>
+                <li><a href="quan-tri-noi-dung_guimail.jsp">Gửi mail</a></li>
             </ul>
         </div>
     </div> 
@@ -58,17 +58,16 @@
 </header>
 <div class="row">
          <div class="col-sm-2"> 
-              
-               <ul class="nav affix" role="navigation">
+                <ul class="nav affix" role="navigation">
                   <li><a href="quan-tri-noi-dung_guimail.jsp">Gửi email</a> </li>
                   <li class="dropdown"> <a href="#"  role="button" class="dropdown-toggle" data-toggle="dropdown">Slider<b class="caret"></b></a>
                     
                     <ul
                     class="dropdown-menu" role="menu">
-                      <li><a tabindex="-1" href="quan-tri-noi-dung-trangchu-list-slider.jsp"><em>1 </em>Danh sách slider trang chủ</a>
+                      <li><a tabindex="-1" href="quan-tri-noi-dung-trangchu-list-slider.jsp"><em>1 </em>Slider trang chủ</a>
 
                       </li>
-                      <li><a tabindex="-1" href="quan-tri-noi-dung-gioithieu-list-slider.jsp"><em>2 </em>Danh sách slider giới thiệu</a> 
+                      <li><a tabindex="-1" href="quan-tri-noi-dung-gioithieu-list-slider.jsp"><em>2 </em>Slider giới thiệu</a> 
                       </li> 
                        <li role="separator" class="divider"></li>
                       <li><a tabindex="-1" href="#"><em>3 </em>Thêm</a> 
@@ -78,7 +77,7 @@
                   <li class="dropdown"> <a href="#" role="button" class="dropdown-toggle" data-toggle="dropdown">Chương trình đào tạo<b class="caret"></b></a> 
                     <ul
                     class="dropdown-menu" role="menu">
-                      <li><a tabindex="-1" href="quan-tri-noi-dung-ctdt-list.jsp"><em>1 </em>Danh sách chương trình đào tạo</a> </li>
+                      <li><a tabindex="-1" href="quan-tri-noi-dung-ctdt-list.jsp"><em>1 </em>Cập nhật</a> </li>
                       <li><a tabindex="-1" href="quan-tri-noi-dung-ctdt-them.jsp"><em>2 </em>Thêm </a> 
                       </li> 
                       </ul>
@@ -87,7 +86,7 @@
                     
                     <ul
                     class="dropdown-menu" role="menu">
-                      <li><a tabindex="-1" href="quan-tri-noi-dung-khoahoc-list.jsp"><em>1 </em>Danh sách khóa học</a>
+                      <li><a tabindex="-1" href="quan-tri-noi-dung-khoahoc-list.jsp"><em>1 </em>Cập nhật</a>
 
                       </li>
                       <li><a tabindex="-1" href="quan-tri-noi-dung-khoahoc-them.jsp"><em>2 </em>Thêm</a> 
@@ -97,7 +96,7 @@
                   <li class="dropdown"> <a href="#" role="button" class="dropdown-toggle" data-toggle="dropdown">Chương trình đào tạo<b class="caret"></b></a> 
                     <ul
                     class="dropdown-menu" role="menu">
-                      <li><a tabindex="-1" href="quan-tri-noi-dung-ctdt-list.jsp"><em>1 </em>Danh sách chương trình đào tạo</a> </li>
+                      <li><a tabindex="-1" href="quan-tri-noi-dung-ctdt-list.jsp"><em>1 </em>Cập nhật</a> </li>
                       <li><a tabindex="-1" href="quan-tri-noi-dung-ctdt-them.jsp"><em>2 </em>Thêm </a> 
                       </li> 
                       </ul>
@@ -105,7 +104,7 @@
                   <li class="dropdown"> <a href="#" role="button" class="dropdown-toggle" data-toggle="dropdown">Tin tức-sự kiện<b class="caret"></b></a> 
                     <ul
                     class="dropdown-menu" role="menu">
-                      <li><a tabindex="-1" href="quan-tri-noi-dung-tintuc-sukien-list.jsp"><em>1 </em>Danh sách Tin tức- Sự kiện</a> 
+                      <li><a tabindex="-1" href="quan-tri-noi-dung-tintuc-sukien-list.jsp"><em>1 </em>Cập nhật</a> 
                       </li>
                       <li><a tabindex="-1" href="quan-tri-noi-dung-tintuc-sukien-them.jsp"><em>2 </em>Thêm </a> 
                       </li> 
@@ -114,7 +113,7 @@
                    <li class="dropdown"> <a href="#" role="button" class="dropdown-toggle" data-toggle="dropdown">Thông báo<b class="caret"></b></a> 
                     <ul
                     class="dropdown-menu" role="menu">
-                      <li><a tabindex="-1" href="quan-tri-noi-dung-thongbao-list.jsp"><em>1 </em>Danh sách thông báo</a> 
+                      <li><a tabindex="-1" href="quan-tri-noi-dung-thongbao-list.jsp"><em>1 </em>Cập nhậto</a> 
                       </li>
                       <li><a tabindex="-1" href="quan-tri-noi-dung-thongbao-them.jsp"><em>2 </em>Thêm </a> 
                       </li> 
@@ -123,60 +122,58 @@
                   <li class="dropdown"> <a href="#" role="button" class="dropdown-toggle" data-toggle="dropdown">Giảng viên<b class="caret"></b></a> 
                     <ul
                     class="dropdown-menu" role="menu" >
-                      <li><a tabindex="-1" href="quan-tri-noi-dung-giangvien-list.jsp"><em>1 </em>Danh sách  giảng viên</a> 
+                      <li><a tabindex="-1" href="quan-tri-noi-dung-giangvien-list.jsp"><em>1 </em>Cập nhật</a> 
                       </li>
                       <li><a tabindex="-1" href="quan-tri-noi-dung-giangvien-them.jsp"><em>2 </em>Thêm</a> 
                       </li> 
                       </ul>
                   </li> 
                     <li><a tabindex="-1" href="quan-tri-noi-dung_logo.jsp">Thông tin trung tâm</a> 
-                      </li>   
-                       <li><a tabindex="-1" href="quan-tri-noi-dung.jsp">Quản trị nội dung</a> 
                       </li> 
+                       <li><a tabindex="-1" href="quan-tri-noi-dung.jsp">Quản trị nội dung</a> 
+                      </li>   
                   </ul>
         </div>  
-    <div class="col-sm-10">
-     <br><h2>GỬI EMAIL</h2><hr>
-     <section id="contact-page">
-        <div class="container  wow fadeInDown">
-            <div class="center">  
-            </div> 
+    <div class="col-sm-10">  
+        <div class="mtb wow fadeInDown">
+             <h2>Gửi email</h2><hr>
             <div class="row contact-wrap"> 
                 <div class="status alert alert-success" style="display: none"></div>
                 <div class="col-md-10">
-                   <form id="main-contact-form" class="contact-form" name="contact-form" method="post" action="sendemail.php">
-                                <div class="form-horizontal">
-                                    <label class="fieldinput col-sm-3 control-label">Tiêu đề
+                   <form  class="form-inline" id="main-contact-form" class="contact-form" name="contact-form" method="post" action="sendemail.php">
+                                <div>  
+                                    <label class="col-sm-3 control-label">Tiêu đề
                                     <sup style="color: rgb(255, 0, 0);">*</sup></label>
                                     <div class="col-sm-9">
-                                    <input type="text"  class="form-control" id="" value="" placeholder="Tiêu đề" required="" autofocus="">
+                                    <input type="text" class="form-control required" size="80" side data-trigger="manual" placeholder="Địa chỉ email" required="" 
+                                     autofocus="">
                                     </div>
                                 </div><br>
-                                 <div class="form-horizontal">
-                                    <label class="fieldinput col-sm-3 control-label">Người nhận
+                                 <div>
+                                    <label class="col-sm-3 control-label">Người nhận
                                     <sup style="color: rgb(255, 0, 0);">*</sup>
                                     </label>
                                     <div class="col-sm-9">
-                                    <input type="link"  class="form-control"  id="" value="" required>
+                                    <input type="email" class="form-control"  id="" size="80"  class="form-control required email" data-trigger="manual" 
+                                    placeholder="Địa chỉ email" data-content="Bạn cần phải nhập vào trường này là một email" required="">
                                     </div>
                                 </div><br> 
-                                <div class="form-horizontal">
-                                    <label class="fieldinput col-sm-3 control-label">Nội dung
+                                <div>
+                                     <label class="col-sm-3 control-label">Nội dung
                                     <sup style="color: rgb(255, 0, 0);">*</sup>
                                     </label>
                                     <div class="col-sm-9">
-                                    <textarea type="text" name="noidung"  class="form-control"  cols="50" rows="6" class="form-control" id="" placeholder="Noi dung" style="resize: none;" required > </textarea>
+                                    <textarea type="text" name="noidung"  class="form-control required"  cols="60" rows="6" class="form-control" id="" placeholder="Noi dung" style="resize: none;"> </textarea>
                                     </div>
                                 </div><br>
-                                <button class="col-md-offset-3 btn btn-primary" type="submit">Gửi</button> 
+                                <button class="col-md-offset-3 btn btn-primary" type="submit">Gửi</button>                                 
                             </form>  
                 </div>  
                             
             </div><!--/.row-->
-        </div><!--/.container-->
-    </section><!--/#contact-page-->
+        </div><!--/.container--> 
         </div>
-
+</div>
     <script src="<c:url value="../assets/js/jquery.js"/>"></script>
     <script src="<c:url value="../assets/js/bootstrap.min.js"/>"></script>
     <script src="<c:url value="../assets/js/jquery.prettyPhoto.js"/>"></script>

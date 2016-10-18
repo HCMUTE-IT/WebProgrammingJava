@@ -44,7 +44,7 @@ $(document).ready(function() {
 
         var validators = {
             name: {
-                regex: /^([\u0000-\uFFFF]{2,}[^$|\s*])$/
+                regex: /^([\u0000-\uFFFF]{1,}[^$|\s*])$/
             },
             username: {
                 regex: /^([\u0000-\uFFFF]{2,}[^$|\s*])$/
@@ -57,6 +57,9 @@ $(document).ready(function() {
             },
             town: {
                 regex: /^([\u0000-\uFFFF]{2,}[^$|\s*])$/
+            },
+            tieude: {
+                regex: /^([\u0000-\uFFFF]{0,}[^$|\s*])$/
             },
             postcode: {
                 regex: /^.{3,}$/
@@ -71,7 +74,7 @@ $(document).ready(function() {
                 regex: /^[\w\-\.\+]+\@[a-zA-Z0-9\.\-]+\.[a-zA-z0-9]{2,4}$/
             },
             phone: { //sdt va cmnd
-                regex: /^[0-9]\d{9,12}$/
+                regex: /^[0-9]\d{7,12}$/
             },
             cmnd: { //sdt va cmnd
                 regex: /^[0-9]\d{8}$/
@@ -241,7 +244,8 @@ $(document).ready(function() {
         $("div.bhoechie-tab>div.bhoechie-tab-content").eq(index).addClass("active");
     });
 
-});
+}); 
+
 // $(document).ready(function() {
 //     var FormControl = {
 
@@ -256,3 +260,4 @@ $(document).ready(function() {
 //         submit: function() {.. } / / to be called by page controller
 //     };
 // });
+ 
