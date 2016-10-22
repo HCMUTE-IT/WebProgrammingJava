@@ -9,7 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
-    <title>Quản trị viên | TTTH</title>
+    <title>Tư vấn viên | TTTH</title>
 
     <!-- core CSS -->
 
@@ -47,39 +47,63 @@
                 <img src="../assets/images/man3.jpg">
                 <span>Administrator</span>
             </a>
-            <ul>
-                <li><a href="quan-tri-vien-thongtintaikhoan.jsp">Trang cá nhân</a></li> 
+          <ul>
+                <li><a href="tu-van-vien-thongtintaikhoan.jsp">Trang cá nhân</a></li> 
                 <li><a href="dang-nhap.jsp">Đăng xuất</a></li>
-                <li><a href="quan-tri-vien_guimail.jsp">Gửi mail</a></li>
+                <li><a href="tu-van-vien-guimail.jsp">Gửi mail</a></li>
             </ul>
         </div>
     </div> 
     </div> 
-</header>  
+</header> 
 <div class="row">
          <div class="col-sm-2"> 
-                <ul class="nav affix" role="navigation">
+             <ul class="nav affix" role="navigation">
                   <li><a href="quan-tri-noi-dung_guimail.jsp">Gửi email</a> </li>
-                  <li class="dropdown"> <a href="#"  role="button" class="dropdown-toggle" data-toggle="dropdown">Quản lý tài khoản<b class="caret"></b></a> 
+                  <li class="dropdown"> <a href="#"  role="button" class="dropdown-toggle" data-toggle="dropdown">Học viên<b class="caret"></b></a> 
                     <ul
                     class="dropdown-menu" role="menu">
-                      <li><a tabindex="-1" href="quan-tri-noi-dung-trangchu-list-slider.jsp"><em>1 </em>Cập nhật</a> 
+                      <li><a tabindex="-1" href="tu-van-vien-hocvien-xuatds.jsp"><em>1 </em>Xuất danh sách</a> 
+                      </li> 
+                      <li><a tabindex="-1" href="tu-van-vien-hocvien-guimail.jsp"><em>2 </em>Gửi Email</a> 
+                      </li>  
+                      </ul>
+                  </li> 
+                  <li class="dropdown"> <a href="#"  role="button" class="dropdown-toggle" data-toggle="dropdown">Khóa học<b class="caret"></b></a> 
+                    <ul
+                    class="dropdown-menu" role="menu">
+                      <li><a tabindex="-1" href="tu-van-vien-khoahoc-quanly.jsp"><em>1 </em>Quản lý</a> 
                       </li>
-                      <li><a tabindex="-1" href="quan-tri-noi-dung-gioithieu-list-slider.jsp"><em>2 </em>Thêm</a> 
+                      <li><a tabindex="-1" href="tu-van-vien-khoahoc-them.jsp"><em>2 </em>Thêm</a> 
                       </li>  
                       </ul>
                   </li>  
                   </ul>
         </div>  
-<div class="col-md-10 container"> 
-   <div class="mtb wow fadeInDown">
-    <h2 >Quản lý Tài khoản</h2><hr>
-
+    <div class="col-sm-10">
+ 
+  <div class="mtb wow fadeInDown">
+    <h2>Gửi email cho học viên</h2><hr>
+    <button type="button" class="btn btn-info" data-toggle="modal" data-target="#myModal">Gửi email cho toàn bộ học viên</button> 
+ 
+  <hr>
+    <p>Chọn danh sách email theo khóa học</p>
+  	  <form action="" class="form-inline"> 
+	    <select class="selectpicker" required>
+	  <option>Android</option>
+	  <option>IOS</option>
+	  <option>Window</option>
+	</select>  
+	</form>
+	  <!-- Trigger the modal with a button -->
+  <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#myModal">Gửi mail</button> 
+  </div>
+	
     <div class="main-content-wrap">
       <div class="main-content">
 
         <div class="list-wrap">
-          <h3 class="form-title">Danh sách tài khoản</h3>
+          <h3 class="form-title">Danh sách học viên</h3>
           <form>
           <table class="list-table">
             <tr>
@@ -99,8 +123,8 @@
               <td>Giá trị 1.4</td>
               <td>Giá trị 1.5</td>
               <td>Giá trị 1.6</td>
-              <td class="edit-cell"><a class="btn-edit" href="qtnd_trangchu_slider.jsp">Sửa</a></td>
-              <td class="delete-cell"><a class="btn-del" href="#">Xóa</a></td>
+             
+              
             </tr>
             <tr>
               <td class="cell-center">Giá trị 2.1</td>
@@ -109,8 +133,8 @@
               <td>Giá trị 2.4</td>
               <td>Giá trị 2.5</td>
               <td>Giá trị 2.6</td>
-              <td class="edit-cell"><a class="btn-edit" href="#">Sửa</a></td>
-              <td class="delete-cell"><a class="btn-del" href="#">Xóa</a></td>
+               
+              
             </tr>
             <tr>
               <td class="cell-center">Giá trị 3.1</td>
@@ -119,8 +143,8 @@
               <td>Giá trị 3.4</td>
               <td>Giá trị 3.5</td>
               <td>Giá trị 3.6</td>
-              <td class="edit-cell"><a class="btn-edit" href="#">Sửa</a></td>
-              <td class="delete-cell"><a class="btn-del" href="#">Xóa</a></td>
+               
+              
             </tr>
             <tr>
               <td class="cell-center">Giá trị 4.1</td>
@@ -129,8 +153,8 @@
               <td>Giá trị 4.4</td>
               <td>Giá trị 4.5</td>
               <td>Giá trị 4.6</td>
-              <td class="edit-cell"><a class="btn-edit" href="#">Sửa</a></td>
-              <td class="delete-cell"><a class="btn-del" href="#">Xóa</a></td>
+               
+              
             </tr>
             <tr>
               <td class="cell-center">Giá trị 5.1</td>
@@ -139,8 +163,8 @@
               <td>Giá trị 5.4</td>
               <td>Giá trị 5.5</td>
               <td>Giá trị 5.6</td>
-              <td class="edit-cell"><a class="btn-edit" href="#">Sửa</a></td>
-              <td class="delete-cell"><a class="btn-del" href="#">Xóa</a></td>
+               
+              
             </tr>
             <tr>
               <td class="cell-center">Giá trị 6.1</td>
@@ -149,8 +173,8 @@
               <td>Giá trị 6.4</td>
               <td>Giá trị 6.5</td>
               <td>Giá trị 6.6</td>
-              <td class="edit-cell"><a class="btn-edit" href="#">Sửa</a></td>
-              <td class="delete-cell"><a class="btn-del" href="#">Xóa</a></td>
+               
+              
             </tr>
             <tr>
               <td class="cell-center">Giá trị 7.1</td>
@@ -159,8 +183,8 @@
               <td>Giá trị 7.4</td>
               <td>Giá trị 7.5</td>
               <td>Giá trị 7.6</td>
-              <td class="edit-cell"><a class="btn-edit" href="#">Sửa</a></td>
-              <td class="delete-cell"><a class="btn-del" href="#">Xóa</a></td>
+               
+              
             </tr>
           </table>
           </form>
@@ -172,15 +196,19 @@
   </div><!--end #admin-content-->
     <br>
      </div>
-</div> 
-        <script src="../assets/js/jquery.js"></script>
-        <script src="../assets/js/bootstrap.min.js"></script>
-        <script src="../assets/js/jquery.prettyPhoto.js"></script>
-        <script src="../assets/js/jquery.isotope.min.js"></script>
-        <script src="../assets/js/main.js"></script>
-        <script src="../assets/js/wow.min.js"></script>
-        <script src="../assets/js/custom.js"></script>
-        <!--BACK TO TOP-->
-        <a id="back-to-top" href="#" class="btn btn-primary btn-md back-to-top" role="button" title="Lên đầu trang" data-toggle="tooltip" data-placement="left"><span class="glyphicon glyphicon-chevron-up"></span></a>
-</body> 
+     </div> <br><br>
+
+    <script src="<c:url value="../assets/js/jquery.js"/>"></script>
+    <script src="<c:url value="../assets/js/bootstrap.min.js"/>"></script>
+    <script src="<c:url value="../assets/js/jquery.prettyPhoto.js"/>"></script>
+    <script src="<c:url value="../assets/js/jquery.isotope.min.js"/>"></script>
+    <script src="<c:url value="../assets/js/main.js"/>"></script>
+    <script src="<c:url value="../assets/js/wow.min.js"/>"></script>
+
+    <script src="<c:url value="../assets/js/custom.js"/>"></script>
+    <script src="<c:url value="../assets/js/validation.js"/>"></script>
+    <!--BACK TO TOP-->
+    <a id="back-to-top" href="#" class="btn btn-primary btn-md back-to-top" role="button" title="Lên đầu trang" data-toggle="tooltip" data-placement="left"><span class="glyphicon glyphicon-chevron-up"></span></a>
+</body>
+
 </html>

@@ -12,23 +12,23 @@
 
     <!-- core CSS -->
 
-    <link href="<c:url value="assets/css/bootstrap.css"/>" rel="stylesheet"/>
-    <link href="<c:url value="assets/css/bootstrap.min.css"/>" rel="stylesheet"/>
-    <link href="<c:url value="assets/css/font-awesome.min.css"/>" rel="stylesheet"/>
-    <link href="<c:url value="assets/css/animate.min.css"/>" rel="stylesheet"/>
-    <link href="<c:url value="assets/css/prettyPhoto.css"/>" rel="stylesheet"/>
-    <link href="<c:url value="assets/css/main.css"/>" rel="stylesheet">
-    <link href="<c:url value="assets/css/responsive.css"/>" rel="stylesheet"/>
-    <link rel="stylesheet" type="text/css" href="<c:url value="assets/css/custom.css"/>"/>
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/font-awesome.min.css" rel="stylesheet">
+    <link href="assets/css/animate.min.css" rel="stylesheet">
+    <link href="assets/css/prettyPhoto.css" rel="stylesheet">
+    <link href="assets/css/main.css" rel="stylesheet">
+    <link href="assets/css/responsive.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="assets/css/custom.css">
     <!--[if lt IE 9]>
     <script src="js/html5shiv.js"></script>
     <script src="js/respond.min.js"></script>
     <![endif]-->
-    <link rel="shortcut icon" href="<c:url value="../assets/images/ico/favicon.ico"/>"/>
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="<c:url value="assets/images/ico/apple-touch-icon-144-precomposed.png"/>"/>
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="<c:url value="assets/images/ico/apple-touch-icon-114-precomposed.png"/>"/>
-    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="<c:url value="assets/images/ico/apple-touch-icon-72-precomposed.png"/>"/>
-    <link rel="apple-touch-icon-precomposed" href="<c:url value="assets/images/ico/apple-touch-icon-57-precomposed.png"/>"/>
+    <link rel="shortcut icon" href="../assets/images/ico/favicon.ico">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/images/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/images/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/images/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="assets/images/ico/apple-touch-icon-57-precomposed.png">
 </head>
 <!--/head-->
 
@@ -80,33 +80,33 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="index.jsp"><img src="assets/images/logo.png" alt="logo">
+                    <a class="navbar-brand" href="index.html"><img src="assets/images/logo.png" alt="logo">
                     </a>
                 </div>
 
                 <div class="collapse navbar-collapse navbar-right">
                     <ul class="nav navbar-nav">
-                        <li class="active"><a href="index.jsp">Trang chủ</a>
+                        <li class="active"><a href="index.html">Trang chủ</a>
                         </li>
-                        <li><a href="public/gioi-thieu.jsp">Giới thiệu</a>
-                        <li><a href="public/lich-khai-giang.jsp">Lịch khai giảng</a>
+                        <li><a href="public/gioi-thieu.html">Giới thiệu</a>
+                        <li><a href="public/lich-khai-giang.html">Lịch khai giảng</a>
                         </li>
                         <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Khóa học <i class="fa fa-angle-down"></i></a>
                             <ul class="dropdown-menu">
-                                <li><a href="public/lich-khai-giang.jsp">Windows</a>
+                                <li><a href="public/lich-khai-giang.html">Windows</a>
                                 </li>
-                                <li><a href="public/pricing.jsp">Iphone</a>
+                                <li><a href="public/pricing.html">Iphone</a>
                                 </li>
-                                <li><a href="public/404.jsp">Android</a>
+                                <li><a href="public/404.html">Android</a>
                                 </li>
-                                <li><a href="public/shortcodes.jsp">Game</a>
+                                <li><a href="public/shortcodes.html">Game</a>
                                 </li>
                             </ul>
                         </li>
-                        <li><a href="public/tin-tuc.jsp">Tin tức</a>
+                        <li><a href="public/tin-tuc.html">Tin tức</a>
                         </li>
-                        <li><a href="public/lien-he.jsp">Liên hệ</a>
+                        <li><a href="public/lien-he.html">Liên hệ</a>
                         </li>
                     </ul>
                 </div>
@@ -202,7 +202,7 @@
         </a>
     </section>
     <!--/#main-slider-->
-
+    
     <section id="recent-works">
         <div class="container wow fadeInDown">
             <div class="center">
@@ -755,15 +755,15 @@
         </div>
     </footer>
     <!--/#footer-->
-    <script src="<c:url value="assets/js/jquery.js"/>"></script>
-    <script src="<c:url value="assets/js/bootstrap.min.js"/>"></script>
-    <script src="<c:url value="assets/js/jquery.prettyPhoto.js"/>"></script>
-    <script src="<c:url value="assets/js/jquery.isotope.min.js"/>"></script>
-    <script src="<c:url value="assets/js/main.js"/>"></script>
-    <script src="<c:url value="assets/js/wow.min.js"/>"></script>
 
-    <script src="<c:url value="assets/js/custom.js"/>"></script>
-    <script src="<c:url value="assets/js/validation.js"/>"></script>
+    <script src="assets/js/jquery.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/jquery.prettyPhoto.js"></script>
+    <script src="assets/js/jquery.isotope.min.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/wow.min.js"></script>
+
+    <script src="assets/js/custom.js"></script>
     <!--BACK TO TOP-->
     <a id="back-to-top" href="#" class="btn btn-primary btn-md back-to-top" role="button" title="Lên đầu trang" data-toggle="tooltip" data-placement="left"><span class="glyphicon glyphicon-chevron-up"></span></a>
 </body>

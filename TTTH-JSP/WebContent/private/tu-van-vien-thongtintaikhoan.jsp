@@ -59,8 +59,7 @@
 </header>  
 <div class="row">
          <div class="col-sm-2"> 
-                
-			<ul class="nav affix" role="navigation">
+               <ul class="nav affix" role="navigation">
                   <li><a href="quan-tri-noi-dung_guimail.jsp">Gửi email</a> </li>
                   <li class="dropdown"> <a href="#"  role="button" class="dropdown-toggle" data-toggle="dropdown">Học viên<b class="caret"></b></a> 
                     <ul
@@ -81,39 +80,23 @@
                       </ul>
                   </li>  
                   </ul>
-        </div>  
-<div class="col-md-10 container"> 
-    <!--/#recent-works-->
-    <div class=" mtb wow fadeInDown"> 
-            <h2>Tư vấn viên- Trang chủ</h2><hr> 
-           <div class="widget block block-static-block" class="col-md-offset-2">
-		   <ul class="list-1">
-		    <li>
-		        <img src="../assets/images/img-1.jpg">
-		        <div class="list-content">
-		            <div class="title-1">Quản lý Khóa học</div>
-		            <div class="title-2">Khóa học</div>
-		        </div>
-		        <a class="link-button" href="tu-van-vien-khoahoc-quanly.jsp">Xem</a>
-		    </li>
-		    <li>
-		        <img src="../assets/images/img-3.jpg">
-		        <div class="list-content">
-		            <div class="title-1">Truy xuất Học viên</div>
-		            <div class="title-2">Học viên</div>
-		        </div>
-		        <a class="link-button" href="tu-van-vien-hocvien-xuatds.jsp">Xem</a>
-		    </li>
-		  <li>
-		        <img src="../assets/images/slide3.jpg">
-		        <div class="list-content">
-		            <div class="title-1">Gửi email cho học viên</div>
-		            <div class="title-2">Email</div>
-		        </div>
-		        <a class="link-button" href="tu-van-vien-hocvien-guimail.jsp">Xem</a>
-		    </li>
-			</ul>
-			</div>
+            </div>
+            <div class="col-sm-10">
+    		<section class="col-sm-9 col-sm-offset-1" class="mtb wow fadeInDown">    
+                                            <div id="ppanel"> 
+                                            <h2>Thông tin tài khoản</h2><hr><br>
+                                                       <p>His first important wood projects enhanced a long relationship between the designer and this material.<br>
+                                                        Already attached to natural resources, the attraction would continue to grow until becoming <br>
+                                                       his first medium. He is actually closely related to his cultural heredity, to the perception he has of his environment. 
+                                                       Kobayashi loves to connect this cultural legacy with the new opportunities of our times, in the concepts, the manufacturing
+                                                        process and the technologies that he deals with as much caution as his interest therein. <br>
+                                                       His process, always very close to materials, and his wish to challenge his own methods, have led the studio to conduct 
+                                                       a large variety of projects. All the design fields are closely related. The furniture created by a designer sets up in a
+                                                        specific space that he must to anticipate and understand. The first experiences of Kobayashi in space design, 
+                                                        in the early times of his career, allows him to increase space projects in his own studio since 2009.</p><br><br>
+                                                </div>  
+                            </section>
+       
  </div>
 </div> 
         <script src="../assets/js/jquery.js"></script>

@@ -78,13 +78,8 @@
                 <div class="collapse navbar-collapse navbar-right">
                     <ul class="nav navbar-nav">
                         <li><a href="../index.html">Trang chủ</a>
-                        </li>   
-                        <li><a href="quan-tri-vien.html">Quản lý tài khoản</a>
-                        <li><a href="gui-mail.html">Gửi mail</a>
-                        </li>
-                        <li class="active"><a href="dang-nhap.html">Đăng nhập</a>
-                        </li>
-                        <li><a href="dang-nhap.html">Đăng xuất</a>
+                        </li>    
+                        <li class="active"><a href="dang-nhap.html">Đăng nhập</a> 
                         </li>
                     </ul>
                 </div>

@@ -9,7 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
-    <title>Chi tiết khóa học | TTTH</title>
+    <title>Quản trị nội dung | TTTH</title>
 
     <!-- core CSS -->
 
@@ -48,27 +48,26 @@
                 <span>Administrator</span>
             </a>
             <ul>
-                <li><a href="#">Trang cá nhân</a></li>
-                <li><a href="#">Tạm khóa</a></li>
-                <li><a href="#">Đăng xuất</a></li>
+                <li><a href="quan-tri-noi-dung-thongtintaikhoan.jsp">Trang cá nhân</a></li> 
+                <li><a href="dang-nhap.jsp">Đăng xuất</a></li>
+                <li><a href="quan-tri-noi-dung_guimail.jsp">Gửi mail</a></li>
             </ul>
         </div>
     </div> 
     </div> 
-</header>
+</header>  
 <div class="row">
          <div class="col-sm-2"> 
-              
-               <ul class="nav affix" role="navigation">
+                <ul class="nav affix" role="navigation">
                   <li><a href="quan-tri-noi-dung_guimail.jsp">Gửi email</a> </li>
                   <li class="dropdown"> <a href="#"  role="button" class="dropdown-toggle" data-toggle="dropdown">Slider<b class="caret"></b></a>
                     
                     <ul
                     class="dropdown-menu" role="menu">
-                      <li><a tabindex="-1" href="quan-tri-noi-dung-trangchu-list-slider.jsp"><em>1 </em>Danh sách slider trang chủ</a>
+                      <li><a tabindex="-1" href="quan-tri-noi-dung-trangchu-list-slider.jsp"><em>1 </em>Slider trang chủ</a>
 
                       </li>
-                      <li><a tabindex="-1" href="quan-tri-noi-dung-gioithieu-list-slider.jsp"><em>2 </em>Danh sách slider giới thiệu</a> 
+                      <li><a tabindex="-1" href="quan-tri-noi-dung-gioithieu-list-slider.jsp"><em>2 </em>Slider giới thiệu</a> 
                       </li> 
                        <li role="separator" class="divider"></li>
                       <li><a tabindex="-1" href="#"><em>3 </em>Thêm</a> 
@@ -78,7 +77,7 @@
                   <li class="dropdown"> <a href="#" role="button" class="dropdown-toggle" data-toggle="dropdown">Chương trình đào tạo<b class="caret"></b></a> 
                     <ul
                     class="dropdown-menu" role="menu">
-                      <li><a tabindex="-1" href="quan-tri-noi-dung-ctdt-list.jsp"><em>1 </em>Danh sách chương trình đào tạo</a> </li>
+                      <li><a tabindex="-1" href="quan-tri-noi-dung-ctdt-list.jsp"><em>1 </em>Cập nhật</a> </li>
                       <li><a tabindex="-1" href="quan-tri-noi-dung-ctdt-them.jsp"><em>2 </em>Thêm </a> 
                       </li> 
                       </ul>
@@ -87,7 +86,7 @@
                     
                     <ul
                     class="dropdown-menu" role="menu">
-                      <li><a tabindex="-1" href="quan-tri-noi-dung-khoahoc-list.jsp"><em>1 </em>Danh sách khóa học</a>
+                      <li><a tabindex="-1" href="quan-tri-noi-dung-khoahoc-list.jsp"><em>1 </em>Cập nhật</a>
 
                       </li>
                       <li><a tabindex="-1" href="quan-tri-noi-dung-khoahoc-them.jsp"><em>2 </em>Thêm</a> 
@@ -97,7 +96,7 @@
                   <li class="dropdown"> <a href="#" role="button" class="dropdown-toggle" data-toggle="dropdown">Chương trình đào tạo<b class="caret"></b></a> 
                     <ul
                     class="dropdown-menu" role="menu">
-                      <li><a tabindex="-1" href="quan-tri-noi-dung-ctdt-list.jsp"><em>1 </em>Danh sách chương trình đào tạo</a> </li>
+                      <li><a tabindex="-1" href="quan-tri-noi-dung-ctdt-list.jsp"><em>1 </em>Cập nhật</a> </li>
                       <li><a tabindex="-1" href="quan-tri-noi-dung-ctdt-them.jsp"><em>2 </em>Thêm </a> 
                       </li> 
                       </ul>
@@ -105,7 +104,7 @@
                   <li class="dropdown"> <a href="#" role="button" class="dropdown-toggle" data-toggle="dropdown">Tin tức-sự kiện<b class="caret"></b></a> 
                     <ul
                     class="dropdown-menu" role="menu">
-                      <li><a tabindex="-1" href="quan-tri-noi-dung-tintuc-sukien-list.jsp"><em>1 </em>Danh sách Tin tức- Sự kiện</a> 
+                      <li><a tabindex="-1" href="quan-tri-noi-dung-tintuc-sukien-list.jsp"><em>1 </em>Cập nhật</a> 
                       </li>
                       <li><a tabindex="-1" href="quan-tri-noi-dung-tintuc-sukien-them.jsp"><em>2 </em>Thêm </a> 
                       </li> 
@@ -114,7 +113,7 @@
                    <li class="dropdown"> <a href="#" role="button" class="dropdown-toggle" data-toggle="dropdown">Thông báo<b class="caret"></b></a> 
                     <ul
                     class="dropdown-menu" role="menu">
-                      <li><a tabindex="-1" href="quan-tri-noi-dung-thongbao-list.jsp"><em>1 </em>Danh sách thông báo</a> 
+                      <li><a tabindex="-1" href="quan-tri-noi-dung-thongbao-list.jsp"><em>1 </em>Cập nhậto</a> 
                       </li>
                       <li><a tabindex="-1" href="quan-tri-noi-dung-thongbao-them.jsp"><em>2 </em>Thêm </a> 
                       </li> 
@@ -123,23 +122,22 @@
                   <li class="dropdown"> <a href="#" role="button" class="dropdown-toggle" data-toggle="dropdown">Giảng viên<b class="caret"></b></a> 
                     <ul
                     class="dropdown-menu" role="menu" >
-                      <li><a tabindex="-1" href="quan-tri-noi-dung-giangvien-list.jsp"><em>1 </em>Danh sách  giảng viên</a> 
+                      <li><a tabindex="-1" href="quan-tri-noi-dung-giangvien-list.jsp"><em>1 </em>Cập nhật</a> 
                       </li>
                       <li><a tabindex="-1" href="quan-tri-noi-dung-giangvien-them.jsp"><em>2 </em>Thêm</a> 
                       </li> 
                       </ul>
                   </li> 
                     <li><a tabindex="-1" href="quan-tri-noi-dung_logo.jsp">Thông tin trung tâm</a> 
-                      </li>   
-                       <li><a tabindex="-1" href="quan-tri-noi-dung.jsp">Quản trị nội dung</a> 
                       </li> 
+                       <li><a tabindex="-1" href="quan-tri-noi-dung.jsp">Quản trị nội dung</a> 
+                      </li>   
                   </ul>
         </div>  
-<div class="col-md-10"> 
+<div class="col-md-10 container"> 
     <!--/#recent-works-->
-    <section id="blog" class="container">
-        <div class="container wow fadeInDown"> 
-            <br><br><h2>Cập nhật Khóa Học Mới</h2><hr> 
+    <div class=" mtb wow fadeInDown"> 
+            <h2>Cập nhật Khóa Học Mới</h2><hr> 
 
             <div class="row">
                 <div class="col-xs-12 col-sm-4 col-md-3">
@@ -149,7 +147,7 @@
                             <div class="recent-work-inner">
                                 <h3><a href="#">Java</a> </h3>
                                 <p>Lập trình căn bản cho người mới bắt đầu</p>
-                                <a class="preview" href="qtnd_trangchu_khoahoc.html" rel="link" target="_blank"><i class="btn-default"></i> Chỉnh sửa</a>
+                                <a class="preview" href="qtnd_trangchu_khoahoc.jsp" rel="link" target="_blank"><i class="btn-default"></i> Chỉnh sửa</a>
                             </div>
                         </div>
                     </div>
@@ -162,7 +160,7 @@
                             <div class="recent-work-inner">
                                 <h3><a href="#">Android</a></h3>
                                 <p>Lập trình căn bản cho người mới bắt đầu</p>
-                                <a class="preview" href="qtnd_trangchu_khoahoc.html" rel="link" target="_blank"><i class="btn-default"></i> Chỉnh sửa</a>
+                                <a class="preview" href="qtnd_trangchu_khoahoc.jsp" rel="link" target="_blank"><i class="btn-default"></i> Chỉnh sửa</a>
                             </div>
                         </div>
                     </div>
@@ -175,7 +173,7 @@
                             <div class="recent-work-inner">
                                 <h3><a href="#">Android </a></h3>
                                 <p>Lập trình căn bản cho người mới bắt đầu</p>
-                                <a class="preview" href="qtnd_trangchu_khoahoc.html" rel="link" target="_blank"><i class="btn-default"></i> Chỉnh sửa</a>
+                                <a class="preview" href="qtnd_trangchu_khoahoc.jsp" rel="link" target="_blank"><i class="btn-default"></i> Chỉnh sửa</a>
                             </div>
                         </div>
                     </div>
@@ -188,7 +186,7 @@
                             <div class="recent-work-inner">
                                 <h3><a href="#">Android </a></h3>
                                 <p>Lập trình căn bản cho người mới bắt đầu</p>
-                                <a class="preview" href="qtnd_trangchu_khoahoc.html" rel="link" target="_blank"><i class="btn-default"></i> Chỉnh sửa</a>
+                                <a class="preview" href="qtnd_trangchu_khoahoc.jsp" rel="link" target="_blank"><i class="btn-default"></i> Chỉnh sửa</a>
                             </div>
                         </div>
                     </div>
@@ -201,7 +199,7 @@
                             <div class="recent-work-inner">
                                 <h3><a href="#">Window phone</a></h3>
                                 <p>Lập trình căn bản cho người mới bắt đầu</p>
-                                <a class="preview" href="qtnd_trangchu_khoahoc.html" rel="link" target="_blank"><i class="btn-default"></i> Chỉnh sửa</a>
+                                <a class="preview" href="qtnd_trangchu_khoahoc.jsp" rel="link" target="_blank"><i class="btn-default"></i> Chỉnh sửa</a>
                             </div>
                         </div>
                     </div>
@@ -214,7 +212,7 @@
                             <div class="recent-work-inner">
                                 <h3><a href="#">Android </a></h3>
                                 <p>Lập trình căn bản cho người mới bắt đầu</p>
-                                <a class="preview" href="qtnd_trangchu_khoahoc.html" rel="link" target="_blank"><i class="btn-default"></i> Chỉnh sửa</a></a>
+                                <a class="preview" href="qtnd_trangchu_khoahoc.jsp" rel="link" target="_blank"><i class="btn-default"></i> Chỉnh sửa</a></a>
                             </div>
                         </div>
                     </div>
@@ -227,7 +225,7 @@
                             <div class="recent-work-inner">
                                 <h3><a href="#">Android </a></h3>
                                 <p>Lập trình căn bản cho người mới bắt đầu</p>
-                                <a class="preview" href="qtnd_trangchu_khoahoc.html" rel="link" target="_blank"><i class="btn-default"></i> Chỉnh sửa</a></a>
+                                <a class="preview" href="qtnd_trangchu_khoahoc.jsp" rel="link" target="_blank"><i class="btn-default"></i> Chỉnh sửa</a></a>
                             </div>
                         </div>
                     </div>
@@ -240,19 +238,12 @@
                             <div class="recent-work-inner">
                                 <h3><a href="#">Android </a></h3>
                                 <p>Lập trình căn bản cho người mới bắt đầu</p>
-                                <a class="preview" href="qtnd_trangchu_khoahoc.html" rel="link" target="_blank"><i class="btn-default"></i> Chỉnh sửa</a></a>
+                                <a class="preview" href="qtnd_trangchu_khoahoc.jsp" rel="link" target="_blank"><i class="btn-default"></i> Chỉnh sửa</a></a>
                             </div>
                         </div>
                     </div>
                 </div> 
-            <!--/.row-->
-        </div>
-        </div>
-        <!--/.container-->
-    </section>
-    <!--/#recent-works-->
-    <section iclass="blog"> 
-        <div class="container"> 
+            <!--/.row--> 
                 <h2>Cập nhật chương Trình Đào Tạo</h2><hr> 
 
             <div class="row">
@@ -265,7 +256,7 @@
                         <div class="media-body">
                             <h3 class="media-heading">OOP</h3>
                             <p>Lập trình căn bản cho người mới bắt đầu</p>
-                            <a href="qtnd_trangchu_ctdaotao.html" target="_blank">Chỉnh sửa</a>
+                            <a href="qtnd_trangchu_ctdaotao.jsp" target="_blank">Chỉnh sửa</a>
                         </div>
                     </div>
                 </div>
@@ -278,7 +269,7 @@
                         <div class="media-body">
                             <h3 class="media-heading">Java</h3>
                             <p>Lập trình căn bản cho người mới bắt đầu</p>
-                            <a href="qtnd_trangchu_ctdaotao.html" target="_blank">Chỉnh sửa</a>
+                            <a href="qtnd_trangchu_ctdaotao.jsp" target="_blank">Chỉnh sửa</a>
                         </div>
                     </div>
                 </div>
@@ -291,7 +282,7 @@
                         <div class="media-body">
                             <h3 class="media-heading">Java</h3>
                             <p>Lập trình căn bản cho người mới bắt đầu</p>
-                            <a href="qtnd_trangchu_ctdaotao.html" target="_blank">Chỉnh sửa</a>
+                            <a href="qtnd_trangchu_ctdaotao.jsp" target="_blank">Chỉnh sửa</a>
                         </div>
                     </div>
                 </div>
@@ -304,7 +295,7 @@
                         <div class="media-body">
                             <h3 class="media-heading">Java</h3>
                             <p>Lập trình căn bản cho người mới bắt đầu</p>
-                            <a href="qtnd_trangchu_ctdaotao.html" target="_blank">Chỉnh sửa</a>
+                            <a href="qtnd_trangchu_ctdaotao.jsp" target="_blank">Chỉnh sửa</a>
                         </div>
                     </div>
                 </div>
@@ -317,7 +308,7 @@
                         <div class="media-body">
                             <h3 class="media-heading">Java</h3>
                             <p>Lập trình căn bản cho người mới bắt đầu</p>
-                            <a href="qtnd_trangchu_ctdaotao.html" target="_blank">Chỉnh sửa</a>
+                            <a href="qtnd_trangchu_ctdaotao.jsp" target="_blank">Chỉnh sửa</a>
                         </div>
                     </div>
                 </div>
@@ -330,16 +321,272 @@
                         <div class="media-body">
                             <h3 class="media-heading">Java</h3>
                             <p>Lập trình căn bản cho người mới bắt đầu</p>
-                            <a href="qtnd_trangchu_ctdaotao.html" target="_blank">Chỉnh sửa</a>
+                            <a href="qtnd_trangchu_ctdaotao.jsp" target="_blank">Chỉnh sửa</a>
                         </div>
                     </div>
                 </div>
-            </div>
-            <!--/.row-->
-        </div>
-        <!--/.container-->
-    </div>
-    </section>
+            </div> 
+                <h2>Cập nhật thông tin đội ngũ giảng viên</h2><br><br>
+            </div> 
+                                <div class="blog">
+                                    <div class="row">
+                                        <aside class="col-md-2">
+                                            <img src="..\assets\images\man2.jpg" class="img-thumbnail" alt="man3"  >
+                                        </aside>
+                                        <div class="col-md-8">
+                                            <div class="panel panel-default">
+                                                <div class="panel-body">
+                                                    <div class="row">
+                                                        <div class="col-md-3">
+                                                             <p>
+                                                                   NGUYỄN VĂN ANH<br/>
+                                                                   xx_xxx@gmail.com<br/>
+                                                                   01692892892 <br/>
+                                                                   <ul class="social-share">
+                                                                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                                                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                                                        <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                                                                        <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+                                                                        <li><a href="#"><i class="fa fa-skype"></i></a></li>
+                                                                    </ul>
+                                                                </p>
+                                                        </div>
+                                                        <div class="col-md-9">
+                                                            <p>
+                                                                Thủ khoa đầu ra khoa CNTT trường ĐH Sư phạm ký thuật. Có kinh nghiệm lập trình Android, IOS,... Đã từng làm việc ở Singapore.
+                                                                Thủ khoa đầu ra khoa CNTT trường ĐH Sư phạm ký thuật. Có kinh nghiệm lập trình Android, IOS,... Đã từng làm việc ở Singapore.
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div><!--/.col-md-8-->
+                                        <div class="col-md-2">
+                                            <div class="row">
+                                                <a href="qtnd_gioithieu.jsp" target="_blank" class="text_size"><img src="../assets/images/edit.png" alt="" height="30" ></a>
+                                                <a href="quan-tri-noi-dung_chinhsuaGV.jsp" target="_blank" class="text_size">Chỉnh sửa</a>
+                                            </div>
+                                        </div>
+                                        </div>  <!--/.row-->
+                                </div>
+                            </section><!--/#blog-->
+                            <section id="blog" >
+                                <div class="blog">
+                                    <div class="row">
+                                        <aside class="col-md-2">
+                                            <img src="..\assets\images\man2.jpg" class="img-thumbnail" alt="man3"  >
+                                        </aside>
+                                        <div class="col-md-8">
+                                            <div class="panel panel-default">
+                                                <div class="panel-body">
+                                                    <div class="row">
+                                                        <div class="col-md-3">
+                                                             <p>
+                                                                   NGUYỄN VĂN ANH<br/>
+                                                                   xx_xxx@gmail.com<br/>
+                                                                   01692892892 <br/>
+                                                                   <ul class="social-share">
+                                                                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                                                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                                                        <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                                                                        <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+                                                                        <li><a href="#"><i class="fa fa-skype"></i></a></li>
+                                                                    </ul>
+                                                                </p>
+                                                        </div>
+                                                        <div class="col-md-9">
+                                                            <p>
+                                                                Thủ khoa đầu ra khoa CNTT trường ĐH Sư phạm ký thuật. Có kinh nghiệm lập trình Android, IOS,... Đã từng làm việc ở Singapore.
+                                                                Thủ khoa đầu ra khoa CNTT trường ĐH Sư phạm ký thuật. Có kinh nghiệm lập trình Android, IOS,... Đã từng làm việc ở Singapore.
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div><!--/.col-md-8-->
+                                        <div class="col-md-2">
+                                            <div class="row">
+                                               <a href="qtnd_gioithieu.jsp" target="_blank" class="text_size"><img src="../assets/images/edit.png" alt="" height="30" ></a>
+                                                <a href="quan-tri-noi-dung_chinhsuaGV.jsp" target="_blank" class="text_size">Chỉnh sửa</a>
+                                            </div>
+                                        </div>
+                                        </div>  <!--/.row-->
+                                </div>
+                            </section><!--/#blog-->
+                            <section id="blog"  >
+                                <div class="blog">
+                                    <div class="row">
+                                        <aside class="col-md-2">
+                                            <img src="..\assets\images\man4.jpg" class="img-thumbnail" alt="man3"  >
+                                        </aside>
+                                        <div class="col-md-8">
+                                            <div class="panel panel-default">
+                                                <div class="panel-body">
+                                                    <div class="row">
+                                                        <div class="col-md-3">
+                                                             <p>
+                                                                   NGUYỄN VĂN ANH<br/>
+                                                                   xx_xxx@gmail.com<br/>
+                                                                   01692892892 <br/>
+                                                                   <ul class="social-share">
+                                                                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                                                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                                                        <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                                                                        <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+                                                                        <li><a href="#"><i class="fa fa-skype"></i></a></li>
+                                                                    </ul>
+                                                                </p>
+                                                        </div>
+                                                        <div class="col-md-9">
+                                                            <p>
+                                                                Thủ khoa đầu ra khoa CNTT trường ĐH Sư phạm ký thuật. Có kinh nghiệm lập trình Android, IOS,... Đã từng làm việc ở Singapore.
+                                                                Thủ khoa đầu ra khoa CNTT trường ĐH Sư phạm ký thuật. Có kinh nghiệm lập trình Android, IOS,... Đã từng làm việc ở Singapore.
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div><!--/.col-md-8-->
+                                        <div class="col-md-2">
+                                            <div class="row">
+                                                <a href="qtnd_gioithieu.jsp" target="_blank" class="text_size"><img src="../assets/images/edit.png" alt="" height="30" ></a>
+                                                <a href="quan-tri-noi-dung_chinhsuaGV.jsp" target="_blank" class="text_size">Chỉnh sửa</a>
+                                            </div>
+                                        </div>
+                                        </div>  <!--/.row-->
+                                </div>
+                            </section><!--/#blog-->
+                            <section id="blog"  >
+                                <div class="blog">
+                                    <div class="row">
+                                        <aside class="col-md-2">
+                                            <img src="..\assets\images\man4.jpg" class="img-thumbnail" alt="man3"  >
+                                        </aside>
+                                        <div class="col-md-8">
+                                            <div class="panel panel-default">
+                                                <div class="panel-body">
+                                                    <div class="row">
+                                                        <div class="col-md-3">
+                                                             <p>
+                                                                   NGUYỄN VĂN ANH<br/>
+                                                                   xx_xxx@gmail.com<br/>
+                                                                   01692892892 <br/>
+                                                                   <ul class="social-share">
+                                                                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                                                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                                                        <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                                                                        <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+                                                                        <li><a href="#"><i class="fa fa-skype"></i></a></li>
+                                                                    </ul>
+                                                                </p>
+                                                        </div>
+                                                        <div class="col-md-9">
+                                                            <p>
+                                                                Thủ khoa đầu ra khoa CNTT trường ĐH Sư phạm ký thuật. Có kinh nghiệm lập trình Android, IOS,... Đã từng làm việc ở Singapore.
+                                                                Thủ khoa đầu ra khoa CNTT trường ĐH Sư phạm ký thuật. Có kinh nghiệm lập trình Android, IOS,... Đã từng làm việc ở Singapore.
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div><!--/.col-md-8-->
+                                        <div class="col-md-2">
+                                            <div class="row">
+                                                <a href="qtnd_gioithieu.jsp" target="_blank" class="text_size"><img src="../assets/images/edit.png" alt="" height="30" ></a>
+                                                <a href="quan-tri-noi-dung_chinhsuaGV.jsp" target="_blank" class="text_size">Chỉnh sửa</a>
+                                            </div>
+                                        </div>
+                                        </div>  <!--/.row-->
+                                </div>
+                            </section><!--/#blog-->
+                            <section id="blog"  >
+                                <div class="blog">
+                                    <div class="row">
+                                        <aside class="col-md-2">
+                                            <img src="..\assets\images\man3.jpg" class="img-thumbnail" alt="man3"  >
+                                        </aside>
+                                        <div class="col-md-8">
+                                            <div class="panel panel-default">
+                                                <div class="panel-body">
+                                                    <div class="row">
+                                                        <div class="col-md-3">
+                                                             <p>
+                                                                   NGUYỄN VĂN ANH<br/>
+                                                                   xx_xxx@gmail.com<br/>
+                                                                   01692892892 <br/>
+                                                                   <ul class="social-share">
+                                                                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                                                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                                                        <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                                                                        <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+                                                                        <li><a href="#"><i class="fa fa-skype"></i></a></li>
+                                                                    </ul>
+                                                                </p>
+                                                        </div>
+                                                        <div class="col-md-9">
+                                                            <p>
+                                                                Thủ khoa đầu ra khoa CNTT trường ĐH Sư phạm ký thuật. Có kinh nghiệm lập trình Android, IOS,... Đã từng làm việc ở Singapore.
+                                                                Thủ khoa đầu ra khoa CNTT trường ĐH Sư phạm ký thuật. Có kinh nghiệm lập trình Android, IOS,... Đã từng làm việc ở Singapore.
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div><!--/.col-md-8-->
+                                        <div class="col-md-2">
+                                            <div class="row">
+                                               <a href="qtnd_gioithieu.jsp" target="_blank" class="text_size"><img src="../assets/images/edit.png" alt="" height="30" ></a>
+                                               <a href="quan-tri-noi-dung_chinhsuaGV.jsp" target="_blank" class="text_size">Chỉnh sửa</a>
+                                            </div>
+                                        </div>
+                                        </div>  <!--/.row-->
+                                </div>
+                            </section><!--/#blog-->
+                            <section id="blog"  >
+                                <div class="blog">
+                                    <div class="row">
+                                        <aside class="col-md-2">
+                                            <img src="..\assets\images\man1.jpg" class="img-thumbnail" alt="man3"  >
+                                        </aside>
+                                        <div class="col-md-8">
+                                            <div class="panel panel-default">
+                                                <div class="panel-body">
+                                                    <div class="row">
+                                                        <div class="col-md-3">
+                                                             <p>
+                                                                   NGUYỄN VĂN ANH<br/>
+                                                                   xx_xxx@gmail.com<br/>
+                                                                   01692892892 <br/>
+                                                                   <ul class="social-share">
+                                                                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                                                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                                                        <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                                                                        <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+                                                                        <li><a href="#"><i class="fa fa-skype"></i></a></li>
+                                                                    </ul> 
+                                                        </div>
+                                                        <div class="col-md-9">
+                                                            <p>
+                                                                Thủ khoa đầu ra khoa CNTT trường ĐH Sư phạm ký thuật. Có kinh nghiệm lập trình Android, IOS,... Đã từng làm việc ở Singapore.
+                                                                Thủ khoa đầu ra khoa CNTT trường ĐH Sư phạm ký thuật. Có kinh nghiệm lập trình Android, IOS,... Đã từng làm việc ở Singapore.
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div><!--/.col-md-8-->
+                                        <div class="col-md-2">
+                                            <div class="row">
+                                                <a href="qtnd_gioithieu.jsp" target="_blank" class="text_size"><img src="../assets/images/edit.png" alt="" height="30" ></a>
+                                                <a href="quan-tri-noi-dung_chinhsuaGV.jsp" target="_blank" class="text_size">Chỉnh sửa</a>
+                                            </div>
+                                        </div>
+                                        </div>  <!--/.row-->
+                                </div>
+                            </section><!--/#blog-->
+                        <!-- </form> -->
+                    </div>
+                </div>  
 </div> 
         <script src="../assets/js/jquery.js"></script>
         <script src="../assets/js/bootstrap.min.js"></script>

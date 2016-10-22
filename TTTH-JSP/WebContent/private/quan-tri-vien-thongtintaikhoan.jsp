@@ -9,7 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
-    <title>Thông tin tài khoản | TTTH</title>
+    <title>Quản trị viên- Thông tin tài khoản | TTTH</title>
 
     <!-- core CSS -->
 
@@ -19,8 +19,8 @@
     <link href="<c:url value="../assets/css/animate.min.css"/>" rel="stylesheet"/>
     <link href="<c:url value="../assets/css/prettyPhoto.css"/>" rel="stylesheet"/>
     <link href="<c:url value="../assets/css/main.css"/>" rel="stylesheet">
-    <link href="<c:url value="../assets/css/responsive.css"/>" rel="stylesheet"/> 
-      <link rel="stylesheet" type="text/css" href="<c:url value="../assets/css/custom.css"/>"/>
+    <link href="<c:url value="../assets/css/responsive.css"/>" rel="stylesheet"/>
+    <link rel="stylesheet" type="text/css" href="<c:url value="../assets/css/custom.css"/>"/>
     <link rel="stylesheet" type="text/css" href="<c:url value="../assets/css/style-admin.css"/>"/>
     <!--[if lt IE 9]>
     <script src="js/html5shiv.js"></script>
@@ -31,7 +31,6 @@
     <link rel="apple-touch-icon-precomposed" sizes="114x114" href="<c:url value="../assets/images/ico/apple-touch-icon-114-precomposed.png"/>"/>
     <link rel="apple-touch-icon-precomposed" sizes="72x72" href="<c:url value="../assets/images/ico/apple-touch-icon-72-precomposed.png"/>"/>
     <link rel="apple-touch-icon-precomposed" href="<c:url value="../assets/images/ico/apple-touch-icon-57-precomposed.png"/>"/>
- 
 </head>
 <!--/head-->
 
@@ -48,95 +47,32 @@
                 <img src="../assets/images/man3.jpg">
                 <span>Administrator</span>
             </a>
-           <ul>
-                <li><a href="quan-tri-noi-dung-thongtintaikhoan.jsp">Trang cá nhân</a></li> 
+            <ul>
+                <li><a href="quan-tri-vien-thongtintaikhoan.jsp">Trang cá nhân</a></li> 
                 <li><a href="dang-nhap.jsp">Đăng xuất</a></li>
-                <li><a href="quan-tri-noi-dung_guimail.jsp">Gửi mail</a></li>
+                <li><a href="quan-tri-vien_guimail.jsp">Gửi mail</a></li>
             </ul>
         </div>
     </div> 
     </div> 
-</header>
+</header>  
 <div class="row">
          <div class="col-sm-2"> 
-                <ul class="nav affix" role="navigation">
+               <ul class="nav affix" role="navigation">
                   <li><a href="quan-tri-noi-dung_guimail.jsp">Gửi email</a> </li>
-                  <li class="dropdown"> <a href="#"  role="button" class="dropdown-toggle" data-toggle="dropdown">Slider<b class="caret"></b></a>
-                    
+                  <li class="dropdown"> <a href="#"  role="button" class="dropdown-toggle" data-toggle="dropdown">Quản lý tài khoản<b class="caret"></b></a> 
                     <ul
                     class="dropdown-menu" role="menu">
-                      <li><a tabindex="-1" href="quan-tri-noi-dung-trangchu-list-slider.jsp"><em>1 </em>Slider trang chủ</a>
-
+                      <li><a tabindex="-1" href="#"><em>1 </em>Cập nhật</a> 
                       </li>
-                      <li><a tabindex="-1" href="quan-tri-noi-dung-gioithieu-list-slider.jsp"><em>2 </em>Slider giới thiệu</a> 
-                      </li> 
-                       <li role="separator" class="divider"></li>
-                      <li><a tabindex="-1" href="#"><em>3 </em>Thêm</a> 
-                      </li> 
+                      <li><a tabindex="-1" href="dang-ky.jsp"><em>2 </em>Thêm</a> 
+                      </li>  
                       </ul>
-                  </li>
-                  <li class="dropdown"> <a href="#" role="button" class="dropdown-toggle" data-toggle="dropdown">Chương trình đào tạo<b class="caret"></b></a> 
-                    <ul
-                    class="dropdown-menu" role="menu">
-                      <li><a tabindex="-1" href="quan-tri-noi-dung-ctdt-list.jsp"><em>1 </em>Cập nhật</a> </li>
-                      <li><a tabindex="-1" href="quan-tri-noi-dung-ctdt-them.jsp"><em>2 </em>Thêm </a> 
-                      </li> 
-                      </ul>
-                  </li>
-                  <li class="dropdown"> <a href="#" role="button" class="dropdown-toggle" data-toggle="dropdown">Khóa học<b class="caret"></b></a>
-                    
-                    <ul
-                    class="dropdown-menu" role="menu">
-                      <li><a tabindex="-1" href="quan-tri-noi-dung-khoahoc-list.jsp"><em>1 </em>Cập nhật</a>
-
-                      </li>
-                      <li><a tabindex="-1" href="quan-tri-noi-dung-khoahoc-them.jsp"><em>2 </em>Thêm</a> 
-                      </li> 
-                      </ul>
-                  </li>
-                  <li class="dropdown"> <a href="#" role="button" class="dropdown-toggle" data-toggle="dropdown">Chương trình đào tạo<b class="caret"></b></a> 
-                    <ul
-                    class="dropdown-menu" role="menu">
-                      <li><a tabindex="-1" href="quan-tri-noi-dung-ctdt-list.jsp"><em>1 </em>Cập nhật</a> </li>
-                      <li><a tabindex="-1" href="quan-tri-noi-dung-ctdt-them.jsp"><em>2 </em>Thêm </a> 
-                      </li> 
-                      </ul>
-                  </li>
-                  <li class="dropdown"> <a href="#" role="button" class="dropdown-toggle" data-toggle="dropdown">Tin tức-sự kiện<b class="caret"></b></a> 
-                    <ul
-                    class="dropdown-menu" role="menu">
-                      <li><a tabindex="-1" href="quan-tri-noi-dung-tintuc-sukien-list.jsp"><em>1 </em>Cập nhật</a> 
-                      </li>
-                      <li><a tabindex="-1" href="quan-tri-noi-dung-tintuc-sukien-them.jsp"><em>2 </em>Thêm </a> 
-                      </li> 
-                      </ul>
-                  </li>
-                   <li class="dropdown"> <a href="#" role="button" class="dropdown-toggle" data-toggle="dropdown">Thông báo<b class="caret"></b></a> 
-                    <ul
-                    class="dropdown-menu" role="menu">
-                      <li><a tabindex="-1" href="quan-tri-noi-dung-thongbao-list.jsp"><em>1 </em>Cập nhậto</a> 
-                      </li>
-                      <li><a tabindex="-1" href="quan-tri-noi-dung-thongbao-them.jsp"><em>2 </em>Thêm </a> 
-                      </li> 
-                      </ul>
-                  </li>
-                  <li class="dropdown"> <a href="#" role="button" class="dropdown-toggle" data-toggle="dropdown">Giảng viên<b class="caret"></b></a> 
-                    <ul
-                    class="dropdown-menu" role="menu" >
-                      <li><a tabindex="-1" href="quan-tri-noi-dung-giangvien-list.jsp"><em>1 </em>Cập nhật</a> 
-                      </li>
-                      <li><a tabindex="-1" href="quan-tri-noi-dung-giangvien-them.jsp"><em>2 </em>Thêm</a> 
-                      </li> 
-                      </ul>
-                  </li> 
-                    <li><a tabindex="-1" href="quan-tri-noi-dung_logo.jsp">Thông tin trung tâm</a> 
-                      </li> 
-                       <li><a tabindex="-1" href="quan-tri-noi-dung.jsp">Quản trị nội dung</a> 
-                      </li>   
+                  </li>  
                   </ul>
-        </div>  
-    <div class="col-sm-10">
-    <section class="col-sm-9 col-sm-offset-1" class="mtb wow fadeInDown">    
+            </div>
+            <div class="col-sm-10">
+    		<section class="col-sm-9 col-sm-offset-1" class="mtb wow fadeInDown">    
                                             <div id="ppanel"> 
                                             <h2>Thông tin tài khoản</h2><hr><br>
                                                        <p>His first important wood projects enhanced a long relationship between the designer and this material.<br>
@@ -148,19 +84,18 @@
                                                        a large variety of projects. All the design fields are closely related. The furniture created by a designer sets up in a
                                                         specific space that he must to anticipate and understand. The first experiences of Kobayashi in space design, 
                                                         in the early times of his career, allows him to increase space projects in his own studio since 2009.</p><br><br>
-                                                </div>
-                                            </div>
-                                        </div>   
+                                                </div>  
                             </section>
      
-     </div> 
+     </div>  
+     </div>
     <script src="<c:url value="../assets/js/jquery.js"/>"></script>
     <script src="<c:url value="../assets/js/bootstrap.min.js"/>"></script>
     <script src="<c:url value="../assets/js/jquery.prettyPhoto.js"/>"></script>
     <script src="<c:url value="../assets/js/jquery.isotope.min.js"/>"></script>
     <script src="<c:url value="../assets/js/main.js"/>"></script>
     <script src="<c:url value="../assets/js/wow.min.js"/>"></script>
-     <script src="<c:url value="../assets/js/filedrag.js"/>"></script>
+
     <script src="<c:url value="../assets/js/custom.js"/>"></script>
     <script src="<c:url value="../assets/js/validation.js"/>"></script>
     <!--BACK TO TOP-->
